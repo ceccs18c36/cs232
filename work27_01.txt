@@ -1,0 +1,57 @@
+Script started on 2020-01-27 11:00:58+0530
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232[00m$ ls
+a.txt  b.txt  README.md  test.txt  work27_01.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232[00m$ sort -n a.txt
+10
+25
+32
+33
+44
+55
+65
+78
+81
+90
+109
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232[00m$ sort -nk&[K7 a.txt
+10
+109
+25
+32
+33
+44
+55
+65
+78
+81
+90
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232[00m$ cut -f3 a.txt
+10
+25
+33
+65
+78
+44
+90
+55
+81
+109
+32
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232[00m$ paste a.txt b.txt
+10	88
+25	77
+33	66
+65	55
+78	43
+44	33
+90	11
+55	22
+81	11111
+109	99
+32	
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232[00m$ grep ""2"5"[C a.txt
+[01;31m[K25[m[K
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232[00m$ ext[Kit
+exit
+
+Script done on 2020-01-27 11:03:13+0530
