@@ -1,0 +1,68 @@
+Script started on 2020-02-10 10:57:44+0530
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ cat > trial [K.txt
+hello world
+^Z
+[1]+  Stopped                 cat > trial.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ cat trrial.txt
+cat: trrial.txt: No such file or directory
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ cat trrial.txt[1Pial.txt
+hello world
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ ssh cs18c36@192.168.0.3.[K0
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c36@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 10 10:55:54 2020 from 192.168.0.111
+$ ls
+0302  1002  2701  examples.desktop
+$ mkdit    ir 10feb
+$ ls
+0302  1002  10feb  2701  examples.desktop
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ scp trial.txt cs18c@3@6@[C192.168.0.30 :  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K:1 0feb
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c36@192.168.0.30's password: 
+trial.txt                                       0%    0     0.0KB/s   --:-- ETAtrial.txt                                     100%   12     9.8KB/s   00:00    
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ l[Krsync -avz taskt4/ cs18c36@192.168.0 .30 : 10feb
+Unexpected remote arg: :
+rsync error: syntax or usage error (code 1) at main.c(1361) [sender=3.1.2]
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ rsync -avz taskt4/ cs18c36@192.168.0..30 : 10feb[C[1P10feb[1P10feb[1P10feb[C[C[C:10feb
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c36@192.168.0.30's password: 
+sending incremental file list
+rsync: change_dir "/home/s4c2/ceccs18c36/cs232/1002/taskt4//taskt4" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  3.76 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ exit
+exit
+There are stopped jobs.
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ ls
+trial.txt  work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ cat > report.txt
+^Z
+[2]+  Stopped                 cat > report.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ ls
+report.txt  trial.txt  work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/1002/taskt4[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/1002/taskt4[00m$ ls
+report

@@ -1,0 +1,44 @@
+CEC CS 18 C36
+Kiran U
+
+--------------------------------
+#1: Further Networking Tasks
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+        ssh
+	rsync
+	scp
+---------------
+
+--------------------------------
+Output:
+
+        # ssh cs18c36@192.168.0.30, is used to open a secured connection to remote device
+	
+	# rsync -avz taskt4/ cs18c36@192.168.0.30:10feb, is used to sync the files across taskt4/ and 10feb/ 
+	
+	# scp trial.txt cs18c36@192.168.0.30:10feb, this is used to upload trial.txt to 10feb/ in the host 192.168.0.30
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
