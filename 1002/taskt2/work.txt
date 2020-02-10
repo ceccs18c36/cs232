@@ -1,0 +1,2137 @@
+Script started on 2020-02-03 10:07:14+0530
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ pdf [Ktotext -layout result.t[K[K_c[KCHN.pdf file.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ ls
+file.txt  result_CHN.pdf  work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ cat > reul[K[Ksult
+^Z
+[1]+  Stopped                 cat > result
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ ls
+file.txt  result  result_CHN.pdf  work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ rm result
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ ls
+file.txt  result_CHN.pdf  work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ cat > result.txt
+^Z
+[2]+  Stopped                 cat > result.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ cat > result.txtls[Krm resultls[Kcat > resultls[Kpdftotext -layout result_CHN.pdf file.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Psftp cs18c36@192.168.0.30pdftotext -layout result_CHN.pdf file.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Psftp cs18c36@192.168.0.30git push -u origin masterremote add origin https://ceccs18cxx/cs2
+232[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ [C[C[C[C[23Pcommit -m"Lab 1"
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "ceccs18c36"email "kiranudayan@
+@yahoo.com"[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ [C[C[C[C[22Padd work27_01.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpull http://github.com/ceccs18c36/cs232 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat > report27_01.txt[2Preport27_01.txtscript work27_01.txt[5P.txt27_01.txtexit[Kgrep  "33" a.txt[1Pa.txt a.txtexit[Kscript work27_01.txt[5P.txt27_01.txt[1Pcat report27_01.txt> report27_01.txt[13Pgit initpull http://github.com/ceccs18c36/cs232 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Padd work27_01.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.email "kiranudayan@
+@yahoo.com"[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pname "ceccs18c36"
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pmmit -m"Lab 1"remote add origin https://ceccs18cxx/cs2
+232[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ [C[C[C[C[18Ppush -u origin master
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c36@192.168.0.30pdftotext -layout result_CHN.pdf file.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat > resultls[Krm resultls[Kcat > result.txt[Kgrep --no-group-ser[Kpr[Kerator -A3 ""C"H"N"!"[1P"1"8"C"S"1"[1P"[C fil 
+e.txt > file.txt
+grep: unrecognized option '--no-group-seperator'
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ sed '/CHN18EC?d' file.txt
+sed: -e expression #1, char 10: unterminated address regex
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ gedit file.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ gedit file.txt[11@sed '/CHN18EC?d'[C[C[C[C[C[C[C[C[Cgrep --no-group-seperator -A3 "CHN18CS" file
+e.txt > file.txt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ [27Pcat > result.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm resultls[Kcat > resultls[Kpdftotext -layout result_CHN.pdf file.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Psftp cs18c36@192.168.0.30pdftotext -layout result_CHN.pdf file.txt[1P.txt[1P.txt[1P.txt[1P.txte.txt[1P.txtr.txte.txts.txtu.txtl.txtt.txt [A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ ls
+result_CHN.pdf  result.txt  work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ car[Kt result.txt
+                      APJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY
+                            Thiruvananthapuram, Kerala, INDIA
+
+
+                        Exam Centre: COLLEGE OF ENGINEERING CHENGANNUR
+
+
+
+                             B.Tech S1 (R,S) Exam Dec 2018 (S1,S2 Result)
+
+
+
+*TBP -To Be Published Soon
+
+
+
+                      ELECTRONICS & COMMUNICATION ENGG[Full Time]
+                   Course Code                                              Course
+
+MA101                                              CALCULUS
+
+CY100                                              ENGINEERING CHEMISTRY
+
+BE100                                              ENGINEERING MECHANICS
+
+BE10104                                            INTRODUCTION TO ELECTRONICS ENGINEERING
+
+BE103                                              INTRODUCTION TO SUSTAINABLE ENGINEERING
+
+ME100                                              BASICS OF MECHANICAL ENGINEERING
+
+CY110                                              ENGINEERING CHEMISTRY LAB
+
+ME110                                              MECHANICAL ENGINEERING WORKSHOP
+
+EC110                                              ELECTRONICS ENGINEERING WORKSHOP
+
+PH100                                              ENGINEERING PHYSICS
+
+BE110                                              ENGINEERING GRAPHICS
+
+EE100                                              BASICS OF ELECTRICAL ENGINEERING
+
+CE100                                              BASICS OF CIVIL ENGINEERING
+
+
+
+   Register No                                    Course Code (Grade)
+
+CHN15EC081        BE100(F)
+
+CHN15EC086        CY100(Absent), ME100(F)
+
+CHN15EC096        MA101(Absent)
+CHN15EC097   MA101(F)
+
+CHN15EC103   CY100(Absent), BE10104(Absent)
+
+CHN15EC115   MA101(F), CY100(F), BE100(F)
+
+CHN16EC006   MA101(F), PH100(F)
+
+CHN16EC030   MA101(F)
+
+CHN16EC032   MA101(F), CY100(B)
+
+CHN16EC066   BE100(F), BE10104(C)
+
+CHN16EC068   MA101(F), PH100(F), CY100(F), BE100(F), BE10104(F), CE100(C), ME100(F), EE100(F)
+
+CHN16EC070   CE100(B+)
+
+CHN16EC077   MA101(Absent)
+
+CHN16EC080   BE10104(Absent), ME100(Absent)
+
+CHN16EC081   MA101(F), BE10104(B)
+
+CHN16EC095   MA101(F), PH100(C)
+
+CHN16EC102   BE10104(Absent)
+
+CHN16EC105   MA101(F), CY100(F), BE100(F), BE10104(F), ME100(F), EE100(F)
+
+CHN16EC109   MA101(C)
+
+CHN16EC111   MA101(Absent), PH100(C), BE100(Absent)
+
+CHN17EC004   MA101(F), CE100(B)
+
+CHN17EC017   BE10104(F), EE100(C)
+
+CHN17EC024   MA101(F), PH100(F)
+
+CHN17EC029   PH100(B), BE10104(B+)
+
+CHN17EC031   MA101(F), PH100(F), CY100(F), BE100(Absent), BE10104(C), EE100(F)
+
+CHN17EC032   PH100(C), EE100(C)
+
+CHN17EC035   MA101(C)
+
+CHN17EC038   EE100(B)
+
+CHN17EC039   MA101(F), BE100(F), EE100(P)
+
+CHN17EC049   MA101(F), BE10104(F), CE100(B), EE100(F)
+
+CHN17EC051   MA101(F), CY100(C), EE100(F)
+
+CHN17EC053   MA101(F)
+
+CHN17EC056   MA101(F), CY100(C), BE110(Absent), BE10104(F)
+CHN17EC058   EE100(F)
+
+CHN17EC059   MA101(F), PH100(F), BE10104(B), EE100(P)
+
+CHN17EC068   BE10104(F)
+
+CHN17EC070   PH100(B), BE110(F)
+
+CHN17EC072   MA101(P)
+
+CHN17EC073   MA101(F), PH100(FE), CY100(F), BE110(Absent), BE10104(Absent), ME100(Absent)
+
+CHN17EC074   MA101(F)
+
+CHN17EC078   BE100(Absent), BE10104(B), EE100(B)
+
+CHN17EC079   ME100(F)
+
+CHN17EC089   MA101(F), CY100(C), BE10104(P)
+
+CHN18EC001   MA101(B+), CY100(B+), BE100(F), BE10104(B), BE103(B+), ME100(B), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18EC002   MA101(F), CY100(C), BE100(F), BE10104(B), BE103(C), ME100(P), CY110(A+), ME110(O),
+             EC110(A+)
+
+CHN18EC003   MA101(A), CY100(O), BE100(A), BE10104(O), BE103(A+), ME100(A), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC004   MA101(C), CY100(B+), BE100(B), BE10104(A+), BE103(B+), ME100(B), CY110(A), ME110(O),
+             EC110(A+)
+
+CHN18EC005   MA101(C), CY100(B), BE100(C), BE10104(B), BE103(B+), ME100(C), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC006   MA101(B), CY100(B+), BE100(C), BE10104(B+), BE103(A), ME100(B), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC007   MA101(B+), CY100(A), BE100(B), BE10104(A), BE103(B+), ME100(B), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18EC008   MA101(B+), CY100(O), BE100(B), BE10104(A+), BE103(A+), ME100(A+), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18EC009   MA101(O), CY100(O), BE100(B), BE10104(A+), BE103(A), ME100(B+), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC010   MA101(F), CY100(A), BE100(F), BE10104(B), BE103(B+), ME100(B), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18EC011   MA101(F), CY100(B), BE100(B), BE10104(B), BE103(B+), ME100(C), CY110(A+), ME110(O),
+             EC110(A+)
+
+CHN18EC012   MA101(B), CY100(B+), BE100(F), BE10104(B+), BE103(B+), ME100(B), CY110(A+), ME110(O),
+             EC110(O)
+CHN18EC013   MA101(F), CY100(B), BE100(F), BE10104(F), BE103(B), ME100(F), CY110(A+), ME110(O),
+             EC110(A+)
+
+CHN18EC014   MA101(P), CY100(B+), BE100(C), BE10104(B), BE103(A), ME100(B), CY110(A), ME110(A+),
+             EC110(A+)
+
+CHN18EC015   MA101(O), CY100(O), BE100(B+), BE10104(A), BE103(O), ME100(A+), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC016   MA101(B+), CY100(O), BE100(B), BE10104(A+), BE103(O), ME100(A), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC017   MA101(F), CY100(C), BE100(F), BE10104(F), BE103(B+), ME100(F), CY110(A), ME110(A+),
+             EC110(A+)
+
+CHN18EC018   MA101(F), CY100(C), BE100(F), BE10104(C), BE103(B+), ME100(F), CY110(A+), ME110(O),
+             EC110(A+)
+
+CHN18EC019   MA101(F), CY100(C), BE100(F), BE10104(F), BE103(B), ME100(F), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC020   MA101(C), CY100(A+), BE100(B), BE10104(B), BE103(A), ME100(B), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC021   MA101(B), CY100(B+), BE100(C), BE10104(C), BE103(B+), ME100(C), CY110(B+), ME110(O),
+             EC110(O)
+
+CHN18EC022   MA101(B), CY100(B), BE100(B), BE10104(B+), BE103(A), ME100(B+), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18EC023   MA101(F), CY100(B+), BE100(C), BE10104(B), BE103(A), ME100(B), CY110(O), ME110(A+),
+             EC110(A+)
+
+CHN18EC024   MA101(B), CY100(A+), BE100(B+), BE10104(B+), BE103(O), ME100(B+), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC025   MA101(FE), CY100(FE), BE100(F), BE10104(F), BE103(C), ME100(FE), CY110(B), ME110(A+),
+             EC110(A)
+
+CHN18EC026   MA101(F), CY100(B), BE100(F), BE10104(C), BE103(B), ME100(C), CY110(A+), ME110(O),
+             EC110(A+)
+
+CHN18EC027   MA101(C), CY100(B), BE100(C), BE10104(B), BE103(C), ME100(C), CY110(B+), ME110(A+),
+             EC110(A+)
+
+CHN18EC028   MA101(B+), CY100(B), BE100(C), BE10104(C), BE103(B+), ME100(C), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18EC029   MA101(A+), CY100(O), BE100(B+), BE10104(B+), BE103(B+), ME100(B+), CY110(O),
+             ME110(O), EC110(A+)
+
+CHN18EC030   MA101(B+), CY100(A+), BE100(B), BE10104(A+), BE103(B+), ME100(B), CY110(A+), ME110(O),
+             EC110(O)
+CHN18EC031   MA101(F), CY100(C), BE100(F), BE10104(C), BE103(C), ME100(B), CY110(B+), ME110(O),
+             EC110(A+)
+
+CHN18EC032   MA101(C), CY100(A), BE100(B), BE10104(B), BE103(B+), ME100(B), CY110(A+), ME110(O),
+             EC110(A+)
+
+CHN18EC033   MA101(F), CY100(B), BE100(C), BE10104(F), BE103(B+), ME100(C), CY110(A), ME110(A+),
+             EC110(A+)
+
+CHN18EC034   MA101(F), CY100(B), BE100(F), BE10104(C), BE103(B), ME100(C), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18EC035   MA101(O), CY100(O), BE100(A+), BE10104(B+), BE103(O), ME100(A+), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC036   MA101(C), CY100(B+), BE100(C), BE10104(B), BE103(B), ME100(B), CY110(A+), ME110(A+),
+             EC110(O)
+
+CHN18EC037   MA101(F), CY100(A), BE100(F), BE10104(O), BE103(B), ME100(B), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC038   MA101(B+), CY100(A), BE100(B), BE10104(B+), BE103(B), ME100(B), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC039   MA101(B), CY100(B), BE100(C), BE10104(B+), BE103(A), ME100(B), CY110(A), ME110(O),
+             EC110(A+)
+
+CHN18EC040   MA101(A), CY100(O), BE100(B), BE10104(B+), BE103(B+), ME100(B+), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC041   MA101(A), CY100(A), BE100(B), BE10104(A), BE103(B+), ME100(B), CY110(A), ME110(O),
+             EC110(A+)
+
+CHN18EC042   MA101(A), CY100(A+), BE100(C), BE10104(A+), BE103(B+), ME100(B+), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC043   MA101(B), CY100(A), BE100(B), BE10104(B+), BE103(B+), ME100(C), CY110(A), ME110(O),
+             EC110(A+)
+
+CHN18EC044   MA101(F), CY100(A), BE100(C), BE10104(B), BE103(B+), ME100(C), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18EC045   MA101(B+), CY100(B+), BE100(B), BE10104(B+), BE103(B), ME100(C), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18EC046   MA101(C), CY100(B+), BE100(F), BE10104(B+), BE103(B+), ME100(F), CY110(A), ME110(O),
+             EC110(O)
+
+CHN18EC047   MA101(B), CY100(B+), BE100(B), BE10104(B+), BE103(B), ME100(B), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18EC048   MA101(F), CY100(F), BE100(F), BE10104(F), BE103(B), ME100(F), CY110(A+), ME110(O),
+             EC110(A+)
+CHN18EC049   MA101(P), CY100(C), BE100(F), BE10104(B), BE103(B), ME100(F), CY110(B+), ME110(A),
+             EC110(A)
+
+CHN18EC050   MA101(B+), CY100(A), BE100(A), BE10104(A+), BE103(B+), ME100(B), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC051   MA101(B), CY100(O), BE100(B+), BE10104(B+), BE103(B), ME100(B+), CY110(A), ME110(O),
+             EC110(O)
+
+CHN18EC052   MA101(FE), CY100(FE), BE100(FE), BE10104(FE), BE103(FE), ME100(FE), CY110(I), ME110(I),
+             EC110(I)
+
+CHN18EC053   MA101(C), CY100(B+), BE100(F), BE10104(A), BE103(B+), ME100(B), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18EC054   MA101(A), CY100(A+), BE100(B+), BE10104(A), BE103(B+), ME100(B), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC055   MA101(FE), CY100(FE), BE100(F), BE10104(F), BE103(F), ME100(FE), CY110(B+), ME110(A+),
+             EC110(A)
+
+CHN18EC056   MA101(A), CY100(O), BE100(B+), BE10104(O), BE103(A+), ME100(B+), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC057   MA101(C), CY100(B+), BE100(F), BE10104(A+), BE103(B+), ME100(B), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18EC058   MA101(C), CY100(B+), BE100(C), BE10104(A), BE103(B+), ME100(B), CY110(A), ME110(A+),
+             EC110(A+)
+
+CHN18EC059   MA101(C), CY100(B), BE100(F), BE10104(B), BE103(C), ME100(C), CY110(B+), ME110(O),
+             EC110(A+)
+
+CHN18EC060   MA101(C), CY100(A+), BE100(C), BE10104(A+), BE103(C), ME100(B), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18EC061   MA101(A+), CY100(O), BE100(B+), BE10104(O), BE103(A), ME100(A), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18EC062   MA101(B), CY100(A+), BE100(C), BE10104(A), BE103(B), ME100(C), CY110(O), ME110(A+),
+             EC110(O)
+
+CHN18EC063   MA101(B+), CY100(A+), BE100(B), BE10104(A+), BE103(B), ME100(B+), CY110(O), ME110(A+),
+             EC110(A)
+
+CHN18EC064   MA101(B), CY100(O), BE100(B+), BE10104(O), BE103(A+), ME100(B+), CY110(O), ME110(A+),
+             EC110(O)
+
+CHN18EC065   MA101(F), CY100(B), BE100(F), BE10104(B+), BE103(C), ME100(C), CY110(B+), ME110(O),
+             EC110(O)
+
+CHN18EC066   MA101(O), CY100(O), BE100(A+), BE10104(O), BE103(B+), ME100(A+), CY110(O), ME110(O),
+             EC110(O)
+CHN18EC067   MA101(F), CY100(C), BE100(F), BE10104(C), BE103(F), ME100(F), CY110(A), ME110(O),
+             EC110(A)
+
+CHN18EC068   MA101(A+), CY100(B), BE100(B), BE10104(A), BE103(F), ME100(C), CY110(A+), ME110(O),
+             EC110(A+)
+
+CHN18EC069   MA101(B+), CY100(O), BE100(A), BE10104(O), BE103(B+), ME100(B), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18EC070   MA101(F), CY100(B), BE100(F), BE10104(B), BE103(B), ME100(F), CY110(A), ME110(O),
+             EC110(A+)
+
+CHN18EC071   MA101(B), CY100(B), BE100(F), BE10104(B), BE103(B), ME100(B), CY110(A), ME110(O),
+             EC110(A+)
+
+CHN18EC072   MA101(F), CY100(FE), BE100(F), BE10104(F), BE103(C), ME100(FE), CY110(B), ME110(P),
+             EC110(A)
+
+CHN18EC073   MA101(A+), CY100(A), BE100(B), BE10104(O), BE103(B), ME100(B), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18EC074   MA101(F), CY100(B), BE100(F), BE10104(C), BE103(F), ME100(F), CY110(A), ME110(A+),
+             EC110(A+)
+
+CHN18EC075   MA101(O), CY100(O), BE100(A), BE10104(A), BE103(B), ME100(B), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC076   MA101(F), CY100(B), BE100(F), BE10104(B), BE103(C), ME100(F), CY110(A+), ME110(A+),
+             EC110(A+)
+
+CHN18EC077   MA101(O), CY100(O), BE100(B+), BE10104(A), BE103(A+), ME100(C), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18EC078   MA101(B), CY100(O), BE100(B), BE10104(A), BE103(B+), ME100(B), CY110(A), ME110(O),
+             EC110(A+)
+
+CHN18EC080   MA101(A), CY100(O), BE100(B), BE10104(O), BE103(B+), ME100(B+), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18EC081   MA101(F), CY100(C), BE100(F), BE10104(B), BE103(F), ME100(C), CY110(A+), ME110(A+),
+             EC110(A+)
+
+CHN18EC082   MA101(B+), CY100(A+), BE100(F), BE10104(B+), BE103(B), ME100(B), CY110(O), ME110(O),
+             EC110(A)
+
+CHN18EC083   MA101(C), CY100(B), BE100(F), BE10104(F), BE103(B), ME100(C), CY110(O), ME110(O),
+             EC110(O)
+
+
+
+                  COMPUTER SCIENCE & ENGINEERING[Full Time]
+             Course Code                                              Course
+
+MA101                                          CALCULUS
+PH100                                              ENGINEERING PHYSICS
+
+BE110                                              ENGINEERING GRAPHICS
+
+BE10105                                            INTRODUCTION TO COMPUTING AND PROBLEM
+                                                   SOLVING
+
+BE103                                              INTRODUCTION TO SUSTAINABLE ENGINEERING
+
+EE100                                              BASICS OF ELECTRICAL ENGINEERING
+
+PH110                                              ENGINEERING PHYSICS LAB
+
+EE110                                              ELECTRICAL ENGINEERING WORKSHOP
+
+CS110                                              COMPUTER SCIENCE WORKSHOP
+
+BE100                                              ENGINEERING MECHANICS
+
+EC100                                              BASICS OF ELECTRONICS ENGINEERING
+
+CY100                                              ENGINEERING CHEMISTRY
+
+ME100                                              BASICS OF MECHANICAL ENGINEERING
+
+
+
+   Register No                                    Course Code (Grade)
+
+CHN15CS005       CY100(Absent), ME100(Absent), EC100(Absent)
+
+CHN15CS015       BE100(Absent)
+
+CHN15CS020       MA101(F), BE10105(Absent)
+
+CHN15CS027       MA101(C)
+
+CHN15CS028       MA101(F)
+
+CHN15CS061       PH100(F)
+
+CHN15CS089       PH100(Absent), EE100(Absent)
+
+CHN16CS019       BE100(F)
+
+CHN16CS027       MA101(C), PH100(F)
+
+CHN16CS035       CY100(Absent), EE100(Absent), EC100(Absent)
+
+CHN16CS046       EC100(B)
+
+CHN16CS059       MA101(Absent)
+
+CHN16CS061       EE100(Absent)
+
+CHN16CS064       MA101(F), CY100(Absent), EC100(Absent)
+
+CHN16CS089       MA101(F)
+
+CHN16CS122       PH100(Absent), CY100(Absent), BE100(Absent), EE100(Absent), EC100(Absent)
+CHN17CS014   MA101(F)
+
+CHN17CS018   MA101(Absent), BE10105(F), EC100(C)
+
+CHN17CS022   MA101(F), BE100(F), BE110(Absent), EE100(F), EC100(F)
+
+CHN17CS023   CY100(Absent), BE100(Absent), EC100(C)
+
+CHN17CS026   BE110(A+)
+
+CHN17CS029   MA101(F), PH100(F), BE100(Absent)
+
+CHN17CS032   MA101(F)
+
+CHN17CS037   MA101(F), PH100(F)
+
+CHN17CS038   MA101(F), PH100(F), BE100(Absent), BE10105(F)
+
+CHN17CS042   CY100(C), EC100(B)
+
+CHN17CS043   MA101(B), BE10105(F)
+
+CHN17CS045   MA101(Absent), BE100(F), BE110(Absent), BE10105(F), EC100(B)
+
+CHN17CS046   BE10105(F)
+
+CHN17CS047   EE100(Absent)
+
+CHN17CS052   BE100(F)
+
+CHN17CS055   MA101(F)
+
+CHN17CS065   MA101(F), EC100(B)
+
+CHN17CS066   MA101(C)
+
+CHN17CS071   PH100(B)
+
+CHN17CS073   MA101(F), CY100(C), EE100(P), EC100(P)
+
+CHN17CS074   CY100(F), EC100(C)
+
+CHN17CS078   MA101(F), PH100(F), BE100(F)
+
+CHN17CS082   BE100(F), BE110(F)
+
+CHN17CS083   BE110(A+)
+
+CHN17CS086   MA101(F), PH100(F)
+
+CHN17CS088   MA101(F), BE100(F)
+
+CHN17CS090   MA101(F), EC100(P)
+
+CHN17CS092   BE110(F)
+
+CHN17CS096   CY100(F), EE100(F)
+
+CHN17CS105   BE110(F)
+CHN17CS107   PH100(F)
+
+CHN17CS109   PH100(F), BE100(F), BE110(F)
+
+CHN17CS119   EC100(F)
+
+CHN17CS120   MA101(F), PH100(F)
+
+CHN18CS001   MA101(B+), PH100(A), BE110(B), BE10105(F), BE103(C), EE100(B), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS002   MA101(C), PH100(F), BE110(F), BE10105(F), BE103(C), EE100(F), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS003   MA101(A+), PH100(A+), BE110(O), BE10105(O), BE103(A), EE100(O), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS004   MA101(B+), PH100(A), BE110(O), BE10105(O), BE103(B), EE100(A+), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS005   MA101(C), PH100(C), BE110(O), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS006   MA101(F), PH100(C), BE110(B), BE10105(F), BE103(C), EE100(F), PH110(B), EE110(B+),
+             CS110(B+)
+
+CHN18CS007   MA101(B+), PH100(B), BE110(O), BE10105(A+), BE103(B), EE100(B+), PH110(A+), EE110(A+),
+             CS110(O)
+
+CHN18CS008   MA101(B), PH100(C), BE110(B+), BE10105(A+), BE103(B), EE100(B), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS009   MA101(A+), PH100(O), BE110(A+), BE10105(B), BE103(A), EE100(A+), PH110(A), EE110(B+),
+             CS110(A+)
+
+CHN18CS010   MA101(O), PH100(A+), BE110(O), BE10105(A), BE103(B+), EE100(A+), PH110(A), EE110(A),
+             CS110(O)
+
+CHN18CS011   MA101(F), PH100(B), BE110(B), BE10105(C), BE103(B+), EE100(B), PH110(A+), EE110(A),
+             CS110(A)
+
+CHN18CS012   MA101(B), PH100(B+), BE110(A+), BE10105(C), BE103(B+), EE100(B+), PH110(A+),
+             EE110(A+), CS110(O)
+
+CHN18CS013   MA101(F), PH100(P), BE110(A), BE10105(F), BE103(B), EE100(B), PH110(A+), EE110(A+),
+             CS110(B+)
+
+CHN18CS014   MA101(F), PH100(F), BE110(B), BE10105(B), BE103(C), EE100(F), PH110(A), EE110(B+),
+             CS110(B+)
+
+CHN18CS015   MA101(F), PH100(F), BE110(B+), BE10105(F), BE103(B), EE100(F), PH110(A), EE110(A),
+             CS110(O)
+
+CHN18CS016   MA101(B+), PH100(O), BE110(O), BE10105(B), BE103(B), EE100(A), PH110(A+), EE110(A+),
+             CS110(B+)
+CHN18CS017   MA101(B+), PH100(B+), BE110(A+), BE10105(A+), BE103(B+), EE100(B+), PH110(O),
+             EE110(A+), CS110(O)
+
+CHN18CS018   MA101(O), PH100(O), BE110(O), BE10105(O), BE103(B+), EE100(A+), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS019   MA101(F), PH100(B+), BE110(B), BE10105(C), BE103(C), EE100(B), PH110(A), EE110(O),
+             CS110(O)
+
+CHN18CS020   MA101(A), PH100(A+), BE110(O), BE10105(B+), BE103(B+), EE100(O), PH110(O), EE110(A),
+             CS110(O)
+
+CHN18CS021   MA101(B), PH100(A+), BE110(O), BE10105(B+), BE103(A), EE100(B+), PH110(A+), EE110(A),
+             CS110(A)
+
+CHN18CS022   MA101(F), PH100(F), BE110(B), BE10105(B+), BE103(C), EE100(F), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS023   MA101(C), PH100(B), BE110(A+), BE10105(A+), BE103(B), EE100(C), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS024   MA101(F), PH100(C), BE110(A), BE10105(F), BE103(B), EE100(F), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS025   MA101(B), PH100(B+), BE110(A+), BE10105(B), BE103(A), EE100(B), PH110(B+), EE110(A),
+             CS110(O)
+
+CHN18CS026   MA101(O), PH100(B+), BE110(B+), BE10105(B+), BE103(B), EE100(A+), PH110(O), EE110(B+),
+             CS110(O)
+
+CHN18CS027   MA101(F), PH100(F), BE110(B+), BE10105(F), BE103(C), EE100(C), PH110(O), EE110(A),
+             CS110(O)
+
+CHN18CS028   MA101(C), PH100(F), BE110(A+), BE10105(C), BE103(F), EE100(C), PH110(O), EE110(A),
+             CS110(O)
+
+CHN18CS029   MA101(A+), PH100(A+), BE110(O), BE10105(B+), BE103(A+), EE100(O), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS030   MA101(B+), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B+), PH110(A), EE110(A),
+             CS110(O)
+
+CHN18CS031   MA101(F), PH100(C), BE110(O), BE10105(C), BE103(C), EE100(F), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS032   MA101(B), PH100(A), BE110(B+), BE10105(B), BE103(B), EE100(B+), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS033   MA101(O), PH100(O), BE110(O), BE10105(B+), BE103(B+), EE100(O), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS034   MA101(F), PH100(C), BE110(B+), BE10105(F), BE103(B+), EE100(B), PH110(A+), EE110(B+),
+             CS110(A)
+CHN18CS035   MA101(O), PH100(A), BE110(O), BE10105(B+), BE103(B+), EE100(O), PH110(O), EE110(B+),
+             CS110(O)
+
+CHN18CS036   MA101(B), PH100(A+), BE110(B+), BE10105(B+), BE103(A), EE100(O), PH110(A+), EE110(A),
+             CS110(A+)
+
+CHN18CS037   MA101(A+), PH100(B+), BE110(O), BE10105(C), BE103(B), EE100(A), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS038   MA101(B+), PH100(A+), BE110(B+), BE10105(B), BE103(A), EE100(A+), PH110(A+), EE110(A),
+             CS110(A)
+
+CHN18CS039   MA101(A), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B+), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS040   MA101(F), PH100(F), BE110(B+), BE10105(C), BE103(C), EE100(F), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS041   MA101(F), PH100(F), BE110(B), BE10105(F), BE103(B), EE100(F), PH110(A+), EE110(B+),
+             CS110(B+)
+
+CHN18CS042   MA101(C), PH100(B), BE110(A), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS043   MA101(B+), PH100(B), BE110(B+), BE10105(B), BE103(B), EE100(B+), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS044   MA101(P), PH100(C), BE110(F), BE10105(C), BE103(C), EE100(C), PH110(A), EE110(B+),
+             CS110(A+)
+
+CHN18CS045   MA101(F), PH100(B+), BE110(A+), BE10105(B), BE103(B), EE100(B+), PH110(A), EE110(A+),
+             CS110(O)
+
+CHN18CS046   MA101(F), PH100(C), BE110(O), BE10105(F), BE103(B), EE100(C), PH110(O), EE110(B+),
+             CS110(O)
+
+CHN18CS047   MA101(C), PH100(C), BE110(A+), BE10105(F), BE103(C), EE100(B), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS048   MA101(F), PH100(F), BE110(A+), BE10105(F), BE103(B), EE100(F), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS049   MA101(A), PH100(A+), BE110(O), BE10105(B+), BE103(B), EE100(B+), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS050   MA101(F), PH100(P), BE110(C), BE10105(F), BE103(C), EE100(F), PH110(A), EE110(B+),
+             CS110(A+)
+
+CHN18CS051   MA101(F), PH100(B+), BE110(B+), BE10105(F), BE103(A), EE100(B), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS052   MA101(F), PH100(F), BE110(B), BE10105(F), BE103(F), EE100(F), PH110(B+), EE110(B+),
+             CS110(O)
+CHN18CS053   MA101(B), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B), PH110(A+), EE110(A),
+             CS110(B+)
+
+CHN18CS054   MA101(A+), PH100(A+), BE110(A+), BE10105(B), BE103(A), EE100(O), PH110(A+), EE110(A+),
+             CS110(A)
+
+CHN18CS055   MA101(B+), PH100(B+), BE110(A), BE10105(F), BE103(B+), EE100(B+), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS056   MA101(B), PH100(A), BE110(O), BE10105(C), BE103(B+), EE100(A+), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS057   MA101(B), PH100(B+), BE110(A), BE10105(C), BE103(B+), EE100(B), PH110(O), EE110(B+),
+             CS110(O)
+
+CHN18CS058   MA101(A+), PH100(A), BE110(A+), BE10105(C), BE103(B+), EE100(O), PH110(A), EE110(A),
+             CS110(O)
+
+CHN18CS059   MA101(A), PH100(A+), BE110(O), BE10105(A), BE103(A), EE100(O), PH110(O), EE110(O),
+             CS110(O)
+
+CHN18CS060   MA101(C), PH100(F), BE110(A+), BE10105(B), BE103(B), EE100(C), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS061   MA101(F), PH100(C), BE110(A), BE10105(A), BE103(B), EE100(F), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS062   MA101(O), PH100(A+), BE110(O), BE10105(B), BE103(B), EE100(O), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS063   MA101(A+), PH100(A), BE110(A+), BE10105(B), BE103(B), EE100(A), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS064   MA101(F), PH100(B), BE110(A+), BE10105(C), BE103(C), EE100(B), PH110(B+), EE110(B+),
+             CS110(O)
+
+CHN18CS065   MA101(F), PH100(F), BE110(B), BE10105(F), BE103(B), EE100(Absent), PH110(A+), EE110(A),
+             CS110(A+)
+
+CHN18CS066   MA101(F), PH100(C), BE110(A), BE10105(F), BE103(B), EE100(C), PH110(A+), EE110(B+),
+             CS110(A+)
+
+CHN18CS067   MA101(F), PH100(B), BE110(B+), BE10105(C), BE103(B+), EE100(B), PH110(A+), EE110(A),
+             CS110(B+)
+
+CHN18CS068   MA101(B), PH100(B), BE110(O), BE10105(C), BE103(B), EE100(B), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS069   MA101(B), PH100(B+), BE110(A+), BE10105(C), BE103(B), EE100(A+), PH110(A+), EE110(A+),
+             CS110(O)
+
+CHN18CS070   MA101(F), PH100(B), BE110(B), BE10105(C), BE103(B), EE100(C), PH110(A), EE110(A),
+             CS110(O)
+CHN18CS071   MA101(F), PH100(C), BE110(B), BE10105(F), BE103(F), EE100(B), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS072   MA101(B+), PH100(B+), BE110(A+), BE10105(A+), BE103(B+), EE100(A+), PH110(A+),
+             EE110(A+), CS110(A+)
+
+CHN18CS073   MA101(B+), PH100(A+), BE110(A), BE10105(B+), BE103(A), EE100(O), PH110(A), EE110(A+),
+             CS110(O)
+
+CHN18CS074   MA101(C), PH100(F), BE110(B+), BE10105(F), BE103(B+), EE100(F), PH110(A+), EE110(B+),
+             CS110(A)
+
+CHN18CS075   MA101(B), PH100(B), BE110(O), BE10105(B+), BE103(B), EE100(A), PH110(B+), EE110(B),
+             CS110(O)
+
+CHN18CS076   MA101(C), PH100(F), BE110(B+), BE10105(B), BE103(B), EE100(C), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS077   MA101(O), PH100(O), BE110(O), BE10105(B+), BE103(A), EE100(A), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS078   MA101(F), PH100(B), BE110(A+), BE10105(B+), BE103(B+), EE100(B), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS079   MA101(B+), PH100(B), BE110(A), BE10105(B), BE103(B), EE100(B), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS080   MA101(O), PH100(O), BE110(O), BE10105(B+), BE103(A+), EE100(A), PH110(O), EE110(A),
+             CS110(O)
+
+CHN18CS081   MA101(B+), PH100(C), BE110(F), BE10105(F), BE103(C), EE100(C), PH110(A), EE110(B),
+             CS110(A)
+
+CHN18CS082   MA101(B), PH100(C), BE110(O), BE10105(A), BE103(B), EE100(C), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS083   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(A), EE100(B), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS084   MA101(B), PH100(B), BE110(A), BE10105(B), BE103(B), EE100(C), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS085   MA101(F), PH100(F), BE110(B+), BE10105(B+), BE103(C), EE100(F), PH110(O), EE110(A+),
+             CS110(O)
+
+CHN18CS086   MA101(F), PH100(C), BE110(B), BE10105(B), BE103(B), EE100(B), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS087   MA101(O), PH100(O), BE110(O), BE10105(A+), BE103(A), EE100(O), PH110(A+), EE110(A+),
+             CS110(O)
+
+CHN18CS088   MA101(C), PH100(B), BE110(B+), BE10105(F), BE103(B), EE100(B), PH110(A+), EE110(A),
+             CS110(A+)
+CHN18CS089   MA101(C), PH100(B), BE110(B+), BE10105(F), BE103(B), EE100(B), PH110(A+), EE110(A),
+             CS110(A+)
+
+CHN18CS090   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(B), EE100(F), PH110(B+), EE110(A),
+             CS110(A)
+
+CHN18CS091   MA101(O), PH100(O), BE110(A+), BE10105(C), BE103(O), EE100(A), PH110(A+), EE110(A+),
+             CS110(A)
+
+CHN18CS092   MA101(A), PH100(A+), BE110(A+), BE10105(B+), BE103(B+), EE100(A), PH110(O), EE110(A),
+             CS110(O)
+
+CHN18CS093   MA101(O), PH100(O), BE110(O), BE10105(A+), BE103(A+), EE100(O), PH110(O), EE110(A),
+             CS110(O)
+
+CHN18CS094   MA101(C), PH100(B), BE110(B), BE10105(F), BE103(C), EE100(C), PH110(O), EE110(A),
+             CS110(A)
+
+CHN18CS095   MA101(A+), PH100(A), BE110(A+), BE10105(A+), BE103(A+), EE100(O), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS096   MA101(B), PH100(B), BE110(B+), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS097   MA101(B), PH100(B), BE110(A+), BE10105(C), BE103(B), EE100(B+), PH110(O), EE110(A),
+             CS110(O)
+
+CHN18CS098   MA101(F), PH100(F), BE110(A), BE10105(C), BE103(B), EE100(F), PH110(A), EE110(B),
+             CS110(A+)
+
+CHN18CS099   MA101(A+), PH100(A+), BE110(A+), BE10105(B+), BE103(A), EE100(O), PH110(A+),
+             EE110(A+), CS110(O)
+
+CHN18CS100   MA101(B+), PH100(B+), BE110(O), BE10105(A), BE103(A+), EE100(A), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS101   MA101(C), PH100(B), BE110(A), BE10105(B), BE103(B+), EE100(B+), PH110(A), EE110(A),
+             CS110(O)
+
+CHN18CS102   MA101(B), PH100(A+), BE110(A+), BE10105(C), BE103(A), EE100(O), PH110(A), EE110(A),
+             CS110(A+)
+
+CHN18CS103   MA101(A+), PH100(A+), BE110(O), BE10105(B+), BE103(B+), EE100(A+), PH110(O),
+             EE110(B+), CS110(O)
+
+CHN18CS104   MA101(A), PH100(B+), BE110(O), BE10105(O), BE103(A), EE100(O), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS105   MA101(B), PH100(B+), BE110(O), BE10105(B), BE103(B+), EE100(B+), PH110(A+), EE110(A+),
+             CS110(O)
+
+CHN18CS106   MA101(C), PH100(C), BE110(B), BE10105(C), BE103(C), EE100(B), PH110(A), EE110(B+),
+             CS110(A)
+CHN18CS107   MA101(C), PH100(C), BE110(O), BE10105(F), BE103(B), EE100(A), PH110(A+), EE110(B),
+             CS110(B+)
+
+CHN18CS108   MA101(F), PH100(F), BE110(B+), BE10105(F), BE103(B), EE100(B), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS109   MA101(F), PH100(B), BE110(A), BE10105(F), BE103(B), EE100(P), PH110(A+), EE110(B+),
+             CS110(O)
+
+CHN18CS110   MA101(C), PH100(C), BE110(B+), BE10105(F), BE103(B), EE100(C), PH110(B), EE110(B+),
+             CS110(O)
+
+CHN18CS111   MA101(B+), PH100(B+), BE110(B+), BE10105(B+), BE103(B+), EE100(B+), PH110(A+),
+             EE110(B+), CS110(O)
+
+CHN18CS112   MA101(A), PH100(B+), BE110(B+), BE10105(C), BE103(B), EE100(B), PH110(A), EE110(A+),
+             CS110(A+)
+
+CHN18CS113   MA101(B+), PH100(A), BE110(O), BE10105(B), BE103(B), EE100(A), PH110(A+), EE110(A),
+             CS110(O)
+
+CHN18CS114   MA101(C), PH100(A), BE110(A+), BE10105(F), BE103(B+), EE100(B+), PH110(A+), EE110(A+),
+             CS110(O)
+
+CHN18CS115   MA101(A+), PH100(A), BE110(O), BE10105(C), BE103(B+), EE100(O), PH110(A), EE110(A),
+             CS110(O)
+
+CHN18CS116   MA101(B+), PH100(B+), BE110(O), BE10105(C), BE103(B+), EE100(B+), PH110(O), EE110(B+),
+             CS110(O)
+
+CHN18CS117   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(C), EE100(F), PH110(B), EE110(B),
+             CS110(O)
+
+CHN18CS118   MA101(C), PH100(B), BE110(O), BE10105(B+), BE103(B+), EE100(B), PH110(A), EE110(B+),
+             CS110(O)
+
+CHN18CS119   MA101(F), PH100(F), BE110(F), BE10105(F), BE103(C), EE100(F), PH110(A), EE110(B),
+             CS110(B+)
+
+CHN18CS120   MA101(C), PH100(C), BE110(B), BE10105(C), BE103(C), EE100(C), PH110(A), EE110(A),
+             CS110(O)
+
+CHN18CS121   MA101(B), PH100(A), BE110(A), BE10105(B), BE103(B+), EE100(B), PH110(O), EE110(B+),
+             CS110(O)
+
+CHN18CS122   MA101(B+), PH100(A), BE110(O), BE10105(B), BE103(B+), EE100(B), PH110(O), EE110(A),
+             CS110(O)
+
+CHN18CS123   MA101(O), PH100(B+), BE110(O), BE10105(A+), BE103(C), EE100(B), PH110(O), EE110(A+),
+             CS110(O)
+
+
+
+             ELECTRICAL AND ELECTRONICS ENGINEERING[Full Time]
+                 Course Code                                            Course
+
+MA101                                              CALCULUS
+
+PH100                                              ENGINEERING PHYSICS
+
+BE110                                              ENGINEERING GRAPHICS
+
+BE10103                                            INTRODUCTION TO ELECTRICAL ENGINEERING
+
+BE103                                              INTRODUCTION TO SUSTAINABLE ENGINEERING
+
+CE100                                              BASICS OF CIVIL ENGINEERING
+
+PH110                                              ENGINEERING PHYSICS LAB
+
+CE110                                              CIVIL ENGINEERING WORKSHOP
+
+EE110                                              ELECTRICAL ENGINEERING WORKSHOP
+
+BE100                                              ENGINEERING MECHANICS
+
+ME100                                              BASICS OF MECHANICAL ENGINEERING
+
+EC100                                              BASICS OF ELECTRONICS ENGINEERING
+
+CY100                                              ENGINEERING CHEMISTRY
+
+
+
+   Register No                                    Course Code (Grade)
+
+CHN15EE015       PH100(B+)
+
+CHN15EE017       MA101(F), PH100(F), BE100(F), BE10103(F)
+
+CHN15EE022       MA101(F), BE10103(F)
+
+CHN15EE025       ME100(F)
+
+CHN15EE043       CY100(F), BE10103(Absent), ME100(Absent)
+
+CHN15EE052       PH100(F)
+
+CHN15EE056       MA101(C)
+
+CHN15EE060       PH100(Absent), BE10103(B)
+
+CHN15EE068       BE10103(F)
+
+CHN15EE085       MA101(F), PH100(F), BE10103(F)
+
+CHN15EE096       PH100(Absent)
+
+CHN15EE098       PH100(F)
+
+CHN15EE104       PH100(Absent)
+
+CHN15EE109       BE110(Absent)
+
+CHN15EE111       BE10103(Absent)
+CHN15EE119   ME100(C)
+
+CHN16EE011   MA101(C), BE10103(P)
+
+CHN16EE022   PH100(C), ME100(Absent)
+
+CHN16EE034   EC100(B+)
+
+CHN16EE036   ME100(C), EC100(B+)
+
+CHN16EE047   CE100(F)
+
+CHN16EE058   MA101(F), BE10103(F)
+
+CHN16EE070   PH100(B), CE100(C)
+
+CHN16EE073   EC100(B+)
+
+CHN16EE076   MA101(Absent), EC100(F)
+
+CHN16EE086   MA101(Absent), BE10103(Absent)
+
+CHN16EE103   MA101(Absent)
+
+CHN16EE109   PH100(F)
+
+CHN16EE110   MA101(C)
+
+CHN17EE003   MA101(F), CY100(F), EC100(F)
+
+CHN17EE005   ME100(F), EC100(B)
+
+CHN17EE012   MA101(F), PH100(F), BE100(F), BE10103(Absent)
+
+CHN17EE014   MA101(F)
+
+CHN17EE017   MA101(F), BE10103(F), EC100(F)
+
+CHN17EE020   PH100(C)
+
+CHN17EE023   PH100(F), CE100(F), ME100(F)
+
+CHN17EE025   MA101(C)
+
+CHN17EE026   MA101(F), BE10103(B), ME100(Absent)
+
+CHN17EE029   BE110(Absent)
+
+CHN17EE031   MA101(B)
+
+CHN17EE032   MA101(B)
+
+CHN17EE034   MA101(C), ME100(F)
+
+CHN17EE035   MA101(F), BE10103(B)
+
+CHN17EE040   MA101(F), BE10103(B)
+
+CHN17EE041   CY100(F), BE100(F)
+CHN17EE046   MA101(F), CY100(C), BE100(F)
+
+CHN17EE048   MA101(C), BE110(Absent), EC100(B)
+
+CHN17EE052   MA101(C)
+
+CHN17EE058   MA101(F), EC100(B)
+
+CHN17EE059   MA101(F)
+
+CHN17EE060   BE110(Absent)
+
+CHN17EE068   MA101(F)
+
+CHN17EE073   BE110(Absent)
+
+CHN17EE075   MA101(F)
+
+CHN17EE081   BE110(Absent)
+
+CHN17EE086   MA101(F), PH100(F), ME100(F)
+
+CHN17EE088   BE110(B+)
+
+CHN17EE090   MA101(B)
+
+CHN17EE092   MA101(F), PH100(F), BE10103(F)
+
+CHN18EE001   MA101(P), PH100(B), BE110(B), BE10103(B), BE103(C), CE100(C), PH110(A+), CE110(O),
+             EE110(B+)
+
+CHN18EE002   MA101(F), PH100(P), BE110(C), BE10103(F), BE103(B), CE100(P), PH110(B), CE110(B+),
+             EE110(A)
+
+CHN18EE003   MA101(B), PH100(O), BE110(B+), BE10103(B+), BE103(B+), CE100(B+), PH110(O), CE110(A+),
+             EE110(B+)
+
+CHN18EE004   MA101(F), PH100(F), BE110(F), BE10103(FE), BE103(C), CE100(F), PH110(B), CE110(B),
+             EE110(B+)
+
+CHN18EE005   MA101(C), PH100(C), BE110(C), BE10103(C), BE103(C), CE100(F), PH110(B), CE110(O),
+             EE110(A)
+
+CHN18EE006   MA101(F), PH100(B+), BE110(F), BE10103(B+), BE103(B), CE100(C), PH110(A+), CE110(O),
+             EE110(A)
+
+CHN18EE007   MA101(C), PH100(B), BE110(B), BE10103(C), BE103(F), CE100(F), PH110(A+), CE110(A),
+             EE110(B)
+
+CHN18EE008   MA101(C), PH100(C), BE110(B), BE10103(C), BE103(B+), CE100(B), PH110(A+), CE110(A),
+             EE110(A)
+
+CHN18EE009   MA101(F), PH100(F), BE110(FE), BE10103(F), BE103(F), CE100(F), PH110(A), CE110(A),
+             EE110(B)
+
+CHN18EE010   MA101(F), PH100(C), BE110(B+), BE10103(F), BE103(B), CE100(C), PH110(A+), CE110(A+),
+             EE110(B+)
+CHN18EE012   MA101(F), PH100(F), BE110(C), BE10103(F), BE103(F), CE100(F), PH110(A+), CE110(A),
+             EE110(C)
+
+CHN18EE013   MA101(B), PH100(C), BE110(B), BE10103(C), BE103(C), CE100(B), PH110(A+), CE110(B+),
+             EE110(A+)
+
+CHN18EE014   MA101(B+), PH100(B+), BE110(B+), BE10103(A), BE103(B), CE100(O), PH110(O), CE110(O),
+             EE110(A)
+
+CHN18EE015   MA101(B), PH100(B), BE110(B), BE10103(B), BE103(C), CE100(B), PH110(A+), CE110(O),
+             EE110(A+)
+
+CHN18EE016   MA101(C), PH100(C), BE110(F), BE10103(C), BE103(C), CE100(C), PH110(A), CE110(A),
+             EE110(B)
+
+CHN18EE017   MA101(C), PH100(B+), BE110(B+), BE10103(A), BE103(B), CE100(A), PH110(A+), CE110(O),
+             EE110(A)
+
+CHN18EE018   MA101(B+), PH100(A+), BE110(B), BE10103(B), BE103(A), CE100(A), PH110(O), CE110(O),
+             EE110(A)
+
+CHN18EE019   MA101(C), PH100(B), BE110(B), BE10103(B), BE103(B), CE100(C), PH110(A), CE110(O),
+             EE110(A)
+
+CHN18EE020   MA101(F), PH100(B+), BE110(F), BE10103(F), BE103(A), CE100(B), PH110(A+), CE110(O),
+             EE110(B)
+
+CHN18EE021   MA101(P), PH100(C), BE110(B), BE10103(B), BE103(O), CE100(B), PH110(A+), CE110(A+),
+             EE110(A+)
+
+CHN18EE022   MA101(C), PH100(B+), BE110(B+), BE10103(B), BE103(A), CE100(C), PH110(O), CE110(A+),
+             EE110(A+)
+
+CHN18EE023   MA101(A), PH100(B), BE110(B), BE10103(B+), BE103(B+), CE100(B), PH110(O), CE110(O),
+             EE110(A)
+
+CHN18EE024   MA101(C), PH100(B), BE110(B), BE10103(C), BE103(B), CE100(C), PH110(A+), CE110(O),
+             EE110(B+)
+
+CHN18EE025   MA101(F), PH100(F), BE110(F), BE10103(F), BE103(B), CE100(F), PH110(A+), CE110(A),
+             EE110(B+)
+
+CHN18EE026   MA101(F), PH100(C), BE110(B), BE10103(F), BE103(C), CE100(F), PH110(B), CE110(A),
+             EE110(A)
+
+CHN18EE027   MA101(B+), PH100(A+), BE110(B), BE10103(A+), BE103(A), CE100(A+), PH110(A+),
+             CE110(A+), EE110(A+)
+
+CHN18EE028   MA101(B+), PH100(B), BE110(F), BE10103(B+), BE103(B), CE100(C), PH110(O), CE110(A+),
+             EE110(A)
+
+CHN18EE029   MA101(A+), PH100(A+), BE110(B+), BE10103(A+), BE103(B+), CE100(B), PH110(O),
+             CE110(A+), EE110(A)
+CHN18EE030   MA101(F), PH100(F), BE110(F), BE10103(F), BE103(B+), CE100(F), PH110(A), CE110(B+),
+             EE110(B)
+
+CHN18EE031   MA101(F), PH100(F), BE110(F), BE10103(F), BE103(B+), CE100(F), PH110(B+), CE110(A),
+             EE110(C)
+
+CHN18EE032   MA101(B), PH100(C), BE110(B), BE10103(C), BE103(B+), CE100(P), PH110(A+), CE110(B+),
+             EE110(A+)
+
+CHN18EE033   MA101(F), PH100(F), BE110(B), BE10103(Absent), BE103(B+), CE100(C), PH110(A+),
+             CE110(B+), EE110(A)
+
+CHN18EE034   MA101(F), PH100(C), BE110(B), BE10103(F), BE103(B), CE100(F), PH110(A+), CE110(B+),
+             EE110(A+)
+
+CHN18EE035   MA101(F), PH100(F), BE110(C), BE10103(F), BE103(C), CE100(F), PH110(B), CE110(B+),
+             EE110(B+)
+
+CHN18EE036   MA101(B+), PH100(O), BE110(B), BE10103(B+), BE103(A+), CE100(B), PH110(O), CE110(A),
+             EE110(A+)
+
+CHN18EE037   MA101(F), PH100(F), BE110(C), BE10103(F), BE103(C), CE100(F), PH110(A+), CE110(A+),
+             EE110(C)
+
+CHN18EE038   MA101(C), PH100(C), BE110(F), BE10103(FE), BE103(B), CE100(P), PH110(B), CE110(B),
+             EE110(A)
+
+CHN18EE039   MA101(A+), PH100(A+), BE110(B), BE10103(A+), BE103(B+), CE100(B), PH110(O), CE110(A+),
+             EE110(A)
+
+CHN18EE040   MA101(A), PH100(A), BE110(B+), BE10103(B+), BE103(A), CE100(B), PH110(A+), CE110(O),
+             EE110(A)
+
+CHN18EE041   MA101(C), PH100(P), BE110(C), BE10103(C), BE103(B), CE100(F), PH110(A+), CE110(A),
+             EE110(B+)
+
+CHN18EE042   MA101(B), PH100(B+), BE110(B+), BE10103(F), BE103(B+), CE100(C), PH110(O), CE110(O),
+             EE110(A+)
+
+CHN18EE043   MA101(F), PH100(F), BE110(B), BE10103(F), BE103(C), CE100(F), PH110(A+), CE110(B),
+             EE110(A)
+
+CHN18EE044   MA101(F), PH100(B), BE110(B), BE10103(B), BE103(B), CE100(F), PH110(O), CE110(A+),
+             EE110(B+)
+
+CHN18EE045   MA101(B+), PH100(B+), BE110(B+), BE10103(B+), BE103(A), CE100(B), PH110(A+), CE110(A),
+             EE110(A+)
+
+CHN18EE046   MA101(A+), PH100(A), BE110(B), BE10103(B), BE103(A), CE100(A), PH110(O), CE110(A+),
+             EE110(A+)
+
+CHN18EE047   MA101(B+), PH100(B), BE110(B), BE10103(B+), BE103(B+), CE100(B), PH110(A+), CE110(A),
+             EE110(A)
+CHN18EE048   MA101(B+), PH100(B+), BE110(F), BE10103(B+), BE103(B), CE100(B), PH110(A+), CE110(B+),
+             EE110(A+)
+
+CHN18EE049   MA101(O), PH100(O), BE110(B+), BE10103(O), BE103(A), CE100(A), PH110(A+), CE110(A+),
+             EE110(A+)
+
+CHN18EE050   MA101(F), PH100(F), BE110(C), BE10103(F), BE103(B+), CE100(C), PH110(O), CE110(O),
+             EE110(B+)
+
+CHN18EE051   MA101(B+), PH100(B+), BE110(B), BE10103(B), BE103(B+), CE100(B+), PH110(O), CE110(O),
+             EE110(A+)
+
+CHN18EE052   MA101(F), PH100(F), BE110(C), BE10103(F), BE103(B+), CE100(C), PH110(O), CE110(O),
+             EE110(A)
+
+CHN18EE053   MA101(A+), PH100(A), BE110(B+), BE10103(B+), BE103(B+), CE100(B), PH110(A+), CE110(O),
+             EE110(B)
+
+CHN18EE054   MA101(FE), PH100(F), BE110(FE), BE10103(FE), BE103(F), CE100(F), PH110(B+), CE110(B),
+             EE110(C)
+
+CHN18EE055   MA101(B+), PH100(A), BE110(B), BE10103(B), BE103(B+), CE100(B), PH110(A+), CE110(A+),
+             EE110(A+)
+
+CHN18EE056   MA101(B+), PH100(B+), BE110(A), BE10103(B), BE103(A), CE100(B+), PH110(O), CE110(O),
+             EE110(A)
+
+CHN18EE057   MA101(FE), PH100(FE), BE110(FE), BE10103(FE), BE103(FE), CE100(FE), PH110(I), CE110(I),
+             EE110(I)
+
+CHN18EE058   MA101(O), PH100(O), BE110(B), BE10103(B+), BE103(B+), CE100(B+), PH110(O), CE110(A+),
+             EE110(B+)
+
+CHN18EE059   MA101(F), PH100(F), BE110(F), BE10103(FE), BE103(F), CE100(F), PH110(A), CE110(B),
+             EE110(C)
+
+CHN18EE060   MA101(C), PH100(F), BE110(F), BE10103(F), BE103(C), CE100(C), PH110(A+), CE110(B+),
+             EE110(B+)
+
+CHN18EE061   MA101(B), PH100(A+), BE110(B+), BE10103(A), BE103(B+), CE100(B+), PH110(O), CE110(O),
+             EE110(A)
+
+CHN18EE062   MA101(C), PH100(A), BE110(B), BE10103(B), BE103(B+), CE100(B), PH110(O), CE110(O),
+             EE110(O)
+
+CHN18EE063   MA101(F), PH100(F), BE110(FE), BE10103(FE), BE103(F), CE100(F), PH110(B), CE110(B),
+             EE110(B+)
+
+CHN18EE064   MA101(A+), PH100(A+), BE110(A), BE10103(B+), BE103(C), CE100(B+), PH110(O), CE110(O),
+             EE110(O)
+
+CHN18EE065   MA101(B), PH100(C), BE110(C), BE10103(C), BE103(B), CE100(B+), PH110(A+), CE110(A+),
+             EE110(B+)
+                 ELECTRONICS & INSTRUMENTATION ENGINEERING[Full Time]
+                   Course Code                                              Course
+
+MA101                                               CALCULUS
+
+CY100                                               ENGINEERING CHEMISTRY
+
+BE100                                               ENGINEERING MECHANICS
+
+BE10104                                             INTRODUCTION TO ELECTRONICS ENGINEERING
+
+BE103                                               INTRODUCTION TO SUSTAINABLE ENGINEERING
+
+ME100                                               BASICS OF MECHANICAL ENGINEERING
+
+CY110                                               ENGINEERING CHEMISTRY LAB
+
+ME110                                               MECHANICAL ENGINEERING WORKSHOP
+
+EC110                                               ELECTRONICS ENGINEERING WORKSHOP
+
+PH100                                               ENGINEERING PHYSICS
+
+CE100                                               BASICS OF CIVIL ENGINEERING
+
+EE100                                               BASICS OF ELECTRICAL ENGINEERING
+
+BE110                                               ENGINEERING GRAPHICS
+
+
+
+   Register No                                     Course Code (Grade)
+
+CHN15AE009        MA101(Absent), BE110(Absent)
+
+CHN15AE017        MA101(F)
+
+CHN15AE036        CY100(B+), BE10104(B)
+
+CHN15AE039        BE110(F), ME100(Absent)
+
+CHN15AE044        ME100(Absent)
+
+CHN16AE002        PH100(B), BE10104(F), EE100(F)
+
+CHN16AE004        ME100(C)
+
+CHN16AE005        EE100(Absent)
+
+CHN16AE006        BE110(Absent), BE10104(F), ME100(F), EE100(F)
+
+CHN16AE010        MA101(Absent), BE100(F), BE10104(C), CE100(F), EE100(F)
+
+CHN16AE016        PH100(F), ME100(B)
+
+CHN16AE019        BE10104(Absent), ME100(Absent)
+
+CHN16AE031        PH100(F), BE10104(C)
+CHN16AE034   MA101(Absent), ME100(B+)
+
+CHN16AE037   MA101(Absent)
+
+CHN17AE001   MA101(F)
+
+CHN17AE003   MA101(F)
+
+CHN17AE004   MA101(F), CY100(F), ME100(F)
+
+CHN17AE005   MA101(F), PH100(F), BE100(F)
+
+CHN17AE006   MA101(F)
+
+CHN17AE007   MA101(F)
+
+CHN17AE011   MA101(F), CY100(F), ME100(F)
+
+CHN17AE014   CY100(C), BE110(B), BE10104(F), EE100(F)
+
+CHN17AE017   MA101(F), CY100(P), BE10104(F), ME100(F)
+
+CHN17AE018   MA101(F)
+
+CHN17AE019   MA101(F), EE100(C)
+
+CHN17AE020   MA101(F), EE100(C)
+
+CHN17AE023   MA101(F), CY100(F), ME100(F)
+
+CHN17AE024   BE10104(B), EE100(B)
+
+CHN17AE026   EE100(B+)
+
+CHN17AE027   MA101(C)
+
+CHN18AE001   MA101(F), CY100(C), BE100(B+), BE10104(B+), BE103(B+), ME100(C), CY110(A), ME110(O),
+             EC110(O)
+
+CHN18AE002   MA101(B), CY100(C), BE100(F), BE10104(B), BE103(C), ME100(F), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18AE003   MA101(F), CY100(B), BE100(F), BE10104(C), BE103(B), ME100(C), CY110(B), ME110(A+),
+             EC110(A+)
+
+CHN18AE004   MA101(F), CY100(F), BE100(F), BE10104(F), BE103(C), ME100(F), CY110(B+), ME110(A+),
+             EC110(A+)
+
+CHN18AE005   MA101(C), CY100(B+), BE100(B), BE10104(B+), BE103(B+), ME100(B+), CY110(A), ME110(O),
+             EC110(O)
+
+CHN18AE006   MA101(F), CY100(B+), BE100(F), BE10104(B), BE103(B), ME100(C), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18AE007   MA101(F), CY100(B), BE100(F), BE10104(F), BE103(C), ME100(F), CY110(A+), ME110(O),
+             EC110(A+)
+CHN18AE008   MA101(F), CY100(B), BE100(F), BE10104(C), BE103(C), ME100(C), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18AE009   MA101(B), CY100(B+), BE100(B), BE10104(B+), BE103(B), ME100(B), CY110(A), ME110(O),
+             EC110(O)
+
+CHN18AE010   MA101(F), CY100(B), BE100(F), BE10104(F), BE103(B), ME100(C), CY110(A), ME110(O),
+             EC110(O)
+
+CHN18AE011   MA101(F), CY100(B), BE100(F), BE10104(F), BE103(B), ME100(FE), CY110(A), ME110(O),
+             EC110(A+)
+
+CHN18AE012   MA101(F), CY100(C), BE100(F), BE10104(F), BE103(C), ME100(F), CY110(A), ME110(O),
+             EC110(O)
+
+CHN18AE013   MA101(F), CY100(B+), BE100(F), BE10104(B), BE103(B), ME100(B), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18AE014   MA101(C), CY100(B+), BE100(C), BE10104(B+), BE103(A+), ME100(B), CY110(A+), ME110(O),
+             EC110(O)
+
+CHN18AE015   MA101(F), CY100(C), BE100(F), BE10104(F), BE103(C), ME100(C), CY110(B+), ME110(A+),
+             EC110(A+)
+
+CHN18AE016   MA101(C), CY100(B+), BE100(B), BE10104(B+), BE103(B), ME100(B), CY110(A+), ME110(O),
+             EC110(A+)
+
+CHN18AE017   MA101(O), CY100(O), BE100(A), BE10104(O), BE103(O), ME100(O), CY110(O), ME110(O),
+             EC110(A+)
+
+CHN18AE018   MA101(F), CY100(C), BE100(F), BE10104(F), BE103(C), ME100(F), CY110(C), ME110(O),
+             EC110(A+)
+
+CHN18AE019   MA101(F), CY100(C), BE100(F), BE10104(F), BE103(B), ME100(F), CY110(B+), ME110(O),
+             EC110(A+)
+
+CHN18AE020   MA101(C), CY100(A), BE100(B), BE10104(B+), BE103(B), ME100(B), CY110(O), ME110(O),
+             EC110(O)
+
+CHN18AE021   MA101(B+), CY100(B+), BE100(B), BE10104(A+), BE103(B+), ME100(B+), CY110(O), ME110(O),
+             EC110(O)
+
+
+
+
+17/04/2019                                                                Controller of Examinations
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ grep ""C"H"N"!"*"[1P"[1P"1"8"C"S"*"[C[1P"[C result.txt > file.txr[Kt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ ls
+file.txt  result_CHN.pdf  result.txt  work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ fi[K[Kges[Kdit file.txt
+^Z
+[3]+  Stopped                 gedit file.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ ls
+file.txt  result_CHN.pdf  result.txt  work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ python sgpa.py
+python: can't open file 'sgpa.py': [Errno 2] No such file or directory
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ gedit sgpa.txt
+^Z
+[4]+  Stopped                 gedit sgpa.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ ls
+file.txt  result_CHN.pdf  result.txt  work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ python
+Python 2.7.15+ (default, Oct  7 2019, 17:39:04) 
+[GCC 7.4.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+[5]+  Stopped                 python
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ gedit sgpa.py
+Failed to register: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+[3]   Killed                  gedit file.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ import pprint,re
+import-im6.q16: not authorized `pprint,re' @ error/constitute.c/WriteImage/1037.
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ fname = input()
+bash: syntax error near unexpected token `('
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ failed = 0
+failed: command not found
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ studdic={}
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ 
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ def cgpacal(grades):
+bash: syntax error near unexpected token `('
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ point=0
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ for i in grades:
+> 
+Display all 2461 possibilities? (y or n)
+:                                   mount.ntfs
+!                                   mount.ntfs-3g
+./                                  mountpoint
+[                                   mousetweaks
+[[                                  mpartition
+]]                                  mrd
+{                                   mren
+}                                   mscompress
+2to3-2.7                            msexpand
+411toppm                            msgattrib
+a2disconf                           msgcat
+a2dismod                            msgcmp
+a2dissite                           msgcomm
+a2enconf                            msgconv
+a2enmod                             msgen
+a2ensite                            msgexec
+a2query                             msgfilter
+aa-enabled                          msgfmt
+aa-exec                             msggrep
+aa-remove-unknown                   msginit
+aa-status                           msgmerge
+ab                                  msgunfmt
+accept                              msguniq
+--More--
+[K
+>  i):
+bash: syntax error near unexpected token `i'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ point+=10
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ elif("(A+)" in i):
+bash: syntax error near unexpected token `elif'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ point+=9
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ elif("(A)" in i):
+bash: syntax error near unexpected token `elif'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$                         point+=9
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ elif("(B+)" in i):
+bash: syntax error near unexpected token `elif'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$                         point+=6
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ elif("(B)" in i):
+bash: syntax error near unexpected token `elif'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$                         point+=6
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ elif("(D)" or "(C)" in i):
+bash: syntax error near unexpected token `elif'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$                         point+=5
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ return("{:.2f}".format(point/float(len(grade
+es))))
+bash: syntax error near unexpected token `"{:.2f}".format'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ 
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ 
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ with open(fname,"r+") as f:
+bash: syntax error near unexpected token `('
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ for i in f:
+> 
+Display all 2461 possibilities? (y or n)
+:                                   mount.ntfs
+!                                   mount.ntfs-3g
+./                                  mountpoint
+[                                   mousetweaks
+[[                                  mpartition
+]]                                  mrd
+{                                   mren
+}                                   mscompress
+2to3-2.7                            msexpand
+411toppm                            msgattrib
+a2disconf                           msgcat
+a2dismod                            msgcmp
+a2dissite                           msgcomm
+a2enconf                            msgconv
+a2enmod                             msgen
+a2ensite                            msgexec
+a2query                             msgfilter
+aa-enabled                          msgfmt
+aa-exec                             msggrep
+aa-remove-unknown                   msginit
+aa-status                           msgmerge
+ab                                  msgunfmt
+accept                              msguniq
+--More--
+[K
+accessdb                            mshortname
+--More--
+[K
+aconnect                            mshowfat
+--More--
+[K
+acpi_available                      mt
+--More--
+[K
+acpid                               mt-gnu
+acpi_listen                         mtools
+add-apt-repository                  mtoolstest
+addgnupghome                        mtr
+addgroup                            mtrace
+addpart                             mtr-packet
+addr2line                           mtvtoppm
+add-shell                           mtype
+adduser                             mutter
+agetty                              mv
+alert                               mxtar
+alias                               myisamchk
+_allowed_groups                     myisam_ftdump
+_allowed_users                      myisamlog
+alsa                                myisampack
+alsabat                             my_print_defaults
+alsabat-test                        mysql
+alsactl                             mysqladmin
+alsa-info                           mysqlanalyze
+alsaloop                            mysqlbinlog
+alsamixer                           mysqlcheck
+alsatplg                            mysql_config_editor
+alsaucm                             mysqld
+--More--
+[K
+amidi                               mysqld_multi
+--More--
+[K
+amixer                              mysqld_safe
+amuFormat.sh                        mysqldump
+anacron                             mysqldumpslow
+animate                             mysql_embedded
+animate-im6                         mysqlimport
+animate-im6.q16                     mysql_install_db
+anytopnm                            mysqloptimize
+apache2                             mysql_plugin
+apache2ctl                          mysqlpump
+apachectl                           mysqlrepair
+apg                                 mysqlreport
+apgbfm                              mysql_secure_installation
+aplay                               mysqlshow
+aplaymidi                           mysqlslap
+apm_available                       mysql_ssl_rsa_setup
+apparmor_parser                     mysql_tzinfo_to_sql
+apparmor_status                     mysql_upgrade
+applygnupgdefaults                  mzip
+_apport-bug                         namei
+apport-bug                          nameif
+_apport-cli                         nano
+apport-cli                          nautilus
+_apport-collect                     nautilus-autorun-software
+--More--
+[K
+> t in studdic.keys():
+bash: syntax error near unexpected token `t'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ print("{0}\n{1}\n".format(student,studdic[st
+tudent]))
+bash: syntax error near unexpected token `"{0}\n{1}\n".format'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ print("FAILED:>{}".format(failed))
+bash: syntax error near unexpected token `"FAILED:>{}".format'
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ cat > sgpa.py
+^Z
+[6]+  Stopped                 cat > sgpa.py
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ python sgpa.py
+^Z
+[7]+  Stopped                 python sgpa.py
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ python sgpa.py
+^Z
+[8]+  Stopped                 python sgpa.py
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ python sgpa.py
+Traceback (most recent call last):
+  File "sgpa.py", line 1, in <module>
+    import result
+ImportError: No module named result
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302[00m$ history
+    1  ifconfig
+    2  ping 192.168.0.245
+    3  ping 192.168.0.2
+    4  ping 192.168.0.30
+    5  ping 192.168.0.245
+    6  ping 192.168.0.30
+    7  ping 192.168.0.245
+    8  cd
+    9  mkdir ceccs18c36
+   10  cd ceccs18c36
+   11  mkdir cs232
+   12  cd cs232
+   13  git inti
+   14  git init
+   15  ifconfig
+   16  git pu
+   17  git pull http://github.com/ceccs18c36/cs232
+   18  git clone http://github.com/ceccs18c36/cs232
+   19  cd
+   20  mkdir cececs18c36
+   21  mkdir ceccs18c36
+   22  cd ceccs18c36
+   23  mkdir cs 232
+   24  rmdir cs 232
+   25  ls
+   26  l
+   27  mkdir cs232
+   28  cd cs232
+   29  git init
+   30  git pull http://github.com/ceccs18c36/cs232
+   31  text.txt
+   32  say text.txt
+   33  cat>text.txt
+   34  ls
+   35  ls -l
+   36  ls -lt
+   37  ls -ltr
+   38  ls ab* -d
+   39  feild seperator: white space
+   40  field seperator: white space
+   41  exit
+   42  sort -n a.txt
+   43  exit
+   44  sort -n a.txt
+   45  sort -nk7 a.txt
+   46  sort -rnk7 a.txt
+   47  cut -f3 a.txt
+   48  exit
+   49  grep "25" a.txt
+   50  exit
+   51  ls
+   52  sort -n a.txt
+   53  sort -nk7 a.txt
+   54  cut -f3 a.txt
+   55  paste a.txt b.txt
+   56  grep "25" a.txt
+   57  exit
+   58  cd ceccs18c36
+   59  cd cs232
+   60  git inti
+   61  git init
+   62  git pull http://github.com/ceccs18c36/cs232
+   63  cat>test.txt
+   64  cat > test.txt
+   65  git add test.txt
+   66  git config --global user.email "kiranudayan@yahoo.com"
+   67  git config --global user.name "ceccs18c36"
+   68  git commit -m "First commit"
+   69  git remote add orgin https://github.com/ceccs18c36/cs232
+   70  git push -u orgin master
+   71  script work27_01.txt
+   72  sort -n fn
+   73  script work27_01.txt
+   74  cat > a.txt
+   75  sort -n a.txt
+   76  sort -nk7 a.txt
+   77  sort -rnk7 a.txt
+   78  sort -t'$\t' -k7 a.txt
+   79  cut -f3  a.txt
+   80  cut -f-3
+   81  paste a.txt b.txt
+   82  join r.a.txt r.b.txt
+   83  grep 231 a.txt
+   84  grep -c
+   85  grep -E "33"a.txt
+   86  grep  "33"a.txt
+   87  grep  "33" a.txt
+   88  exit
+   89  script work27_01.txt
+   90  script work.txt
+   91  script work27_01.txt
+   92  cat report27_01.txt
+   93  cat > report27_01.txt
+   94  git init
+   95  git pull http://github.com/ceccs18c36/cs232
+   96  git add work27_01.txt
+   97  git config --global user.email "kiranudayan@yahoo.com"
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ ls
+calsgpa.py  result_CHN.pdf  result.txt  work2.txt
+file.txt    results2.pdf    sgpa.sh     work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ ^C
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ pdftotext -layout result_CHN.pdf resul
+lt.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ ls
+calsgpa.py  result_CHN.pdf  result.txt  work2.txt
+file.txt    results2.pdf    sgpa.sh     work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ lspdftotext -layout result_CHN.pdf resul
+lt.txt
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.pdf result[1P.txt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.pdf result.[1Ptxt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.pdf result.t[1Pxt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.pdf result.tx[1Pt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs.pdf result.txt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.pdf result.txt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cesult.t[1Pxt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csult.tx[1Pt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cult.txt[K[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clt.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pt.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txtf.txti.txt [A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl.txt
+t[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.txt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs.txt[A
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.txt
+
+
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ grep "CHN18CS"  [Kresult.t[K[Ks2[K[K2.txt > files2.t 
+xt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ ls
+calsgpa.py  file.txt     result_CHN.pdf  result.txt  work2.txt
+files2.txt  result2.txt  results2.pdf    sgpa.sh     work.txt
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ python calsgpa.py
+'/home/s4c2/ceccs18c36/cs232/0302/task2/files2.txt' 
+CHN18CS001
+8.31
+
+CHN18CS002
+-5
+
+CHN18CS003
+9.19
+
+CHN18CS004
+8.94
+
+CHN18CS005
+8.06
+
+CHN18CS006
+-2
+
+CHN18CS007
+8.50
+
+CHN18CS008
+8.25
+
+CHN18CS009
+9.44
+
+CHN18CS010
+9.50
+
+CHN18CS011
+-1
+
+CHN18CS012
+7.94
+
+CHN18CS013
+-2
+
+CHN18CS014
+-2
+
+CHN18CS015
+-1
+
+CHN18CS016
+8.62
+
+CHN18CS017
+8.75
+
+CHN18CS018
+9.62
+
+CHN18CS019
+-1
+
+CHN18CS020
+9.25
+
+CHN18CS021
+8.88
+
+CHN18CS022
+-1
+
+CHN18CS023
+8.38
+
+CHN18CS024
+-3
+
+CHN18CS025
+8.00
+
+CHN18CS026
+8.94
+
+CHN18CS027
+-3
+
+CHN18CS028
+-2
+
+CHN18CS029
+9.50
+
+CHN18CS030
+-1
+
+CHN18CS031
+-2
+
+CHN18CS032
+7.69
+
+CHN18CS033
+9.12
+
+CHN18CS034
+-1
+
+CHN18CS035
+9.38
+
+CHN18CS036
+8.75
+
+CHN18CS037
+8.38
+
+CHN18CS038
+8.56
+
+CHN18CS039
+8.31
+
+CHN18CS040
+-1
+
+CHN18CS041
+-1
+
+CHN18CS042
+7.88
+
+CHN18CS043
+8.69
+
+CHN18CS044
+-3
+
+CHN18CS045
+7.75
+
+CHN18CS046
+7.88
+
+CHN18CS047
+-1
+
+CHN18CS048
+-4
+
+CHN18CS049
+8.81
+
+CHN18CS050
+-4
+
+CHN18CS051
+-2
+
+CHN18CS052
+-2
+
+CHN18CS053
+-1
+
+CHN18CS054
+9.12
+
+CHN18CS055
+8.19
+
+CHN18CS056
+7.88
+
+CHN18CS057
+7.94
+
+CHN18CS058
+9.00
+
+CHN18CS059
+9.12
+
+CHN18CS060
+-2
+
+CHN18CS061
+-5
+
+CHN18CS062
+9.81
+
+CHN18CS063
+8.31
+
+CHN18CS064
+-1
+
+CHN18CS065
+-1
+
+CHN18CS066
+-2
+
+CHN18CS067
+-1
+
+CHN18CS068
+8.12
+
+CHN18CS069
+8.44
+
+CHN18CS070
+8.69
+
+CHN18CS071
+-3
+
+CHN18CS072
+8.25
+
+CHN18CS073
+8.94
+
+CHN18CS074
+7.56
+
+CHN18CS075
+7.81
+
+CHN18CS076
+-1
+
+CHN18CS077
+9.62
+
+CHN18CS078
+8.31
+
+CHN18CS079
+7.62
+
+CHN18CS080
+9.62
+
+CHN18CS081
+-1
+
+CHN18CS082
+-1
+
+CHN18CS083
+-1
+
+CHN18CS084
+7.75
+
+CHN18CS085
+-1
+
+CHN18CS086
+-2
+
+CHN18CS087
+9.81
+
+CHN18CS088
+-2
+
+CHN18CS089
+-2
+
+CHN18CS090
+-5
+
+CHN18CS091
+9.12
+
+CHN18CS092
+9.50
+
+CHN18CS093
+9.38
+
+CHN18CS094
+7.94
+
+CHN18CS095
+9.62
+
+CHN18CS096
+8.12
+
+CHN18CS097
+-2
+
+CHN18CS098
+-3
+
+CHN18CS099
+9.62
+
+CHN18CS100
+-1
+
+CHN18CS101
+-1
+
+CHN18CS102
+9.00
+
+CHN18CS103
+9.06
+
+CHN18CS104
+8.88
+
+CHN18CS105
+8.12
+
+CHN18CS106
+-2
+
+CHN18CS107
+8.00
+
+CHN18CS108
+7.75
+
+CHN18CS109
+7.38
+
+CHN18CS110
+-3
+
+CHN18CS111
+8.56
+
+CHN18CS112
+8.12
+
+CHN18CS113
+7.88
+
+CHN18CS114
+-3
+
+CHN18CS115
+-1
+
+CHN18CS116
+8.38
+
+CHN18CS117
+-3
+
+CHN18CS118
+-2
+
+CHN18CS119
+-6
+
+CHN18CS120
+-2
+
+CHN18CS121
+7.75
+
+CHN18CS122
+9.06
+
+CHN18CS123
+-3
+
+]0;s4c2@CC2-27: ~/ceccs18c36/cs232/0302/task2[01;32ms4c2@CC2-27[00m:[01;34m~/ceccs18c36/cs232/0302/task2[00m$ exit
+exit
+

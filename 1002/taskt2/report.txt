@@ -1,0 +1,33 @@
+CEC CS 18 C36
+Kiran U
+
+Date: 10/02/2020
+--------------------------------
+#1:Scripting Task
+---------------------------------
+Command/Shell script/Program name : work.txt
+
+---------------------------------
+
+Input:result_CHN.pdf,results2.pdf 
+---------------
+Process Used:
+-------------
+->pdftotext -layout to convert the result pdf file to respective  text file
+
+-> a python script was used to calculate the sgpa (sgpa.py)
+
+
+--------------------------------
+Output: file.txt , files2.txt
+
+
+-------------------
+Remarks if any: 
+-> result_CHN.pdf and results2.pdf are the pdf files downloaded
+
+-> result.txt and result2.txt are the the converted files
+
+-> file.txt and files2.txt are the text files that contains the marklist of c batch
+
+-------------------------------------
