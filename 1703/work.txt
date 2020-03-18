@@ -1,0 +1,312 @@
+Script started on 2020-03-17 21:17:15+0530
+]0;acer@acer-Aspire-ES1-512: ~/kr/1703[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/1703[00m$ sudo apt -get install vsftpd
+[sudo] password for acer: ****    
+apt
+Usage: apt command [options]
+       apt help command [options]
+
+Commands:
+  add-repository   - Add entries to apt sources.list
+  autoclean        - Erase old downloaded archive files
+  autoremove       - Remove automatically all unused packages
+  build            - Build binary or source packages from sources
+  build-dep        - Configure build-dependencies for source packages
+  changelog        - View a package's changelog
+  check            - Verify that there are no broken dependencies
+  clean            - Erase downloaded archive files
+  contains         - List packages containing a file
+  content          - List files contained in a package
+  deb              - Install a .deb package
+  depends          - Show raw dependency information for a package
+  dist-upgrade     - Upgrade the system by removing/installing/upgrading packages
+  download         - Download the .deb file for a package
+  edit-sources     - Edit /etc/apt/sources.list with your preferred text editor
+  dselect-upgrade  - Follow dselect selections
+  full-upgrade     - Same as 'dist-upgrade'
+  held             - List all held packages
+  help             - Show help for a command
+  hold             - Hold a package
+  install          - Install/upgrade packages
+  list             - List packages based on package names
+  policy           - Show policy settings
+  purge            - Remove packages and their configuration files
+  recommends       - List missing recommended packages for a particular package
+  rdepends         - Show reverse dependency information for a package
+  reinstall        - Download and (possibly) reinstall a currently installed package
+  remove           - Remove packages
+  search           - Search for a package by name and/or expression
+  show             - Display detailed information about a package
+  showhold         - Same as 'held'
+  showsrc          - Display all the source package records that match the given package name
+  source           - Download source archives
+  sources          - Same as 'edit-sources'
+  unhold           - Unhold a package
+  update           - Download lists of new/upgradable packages
+  upgrade          - Perform a safe upgrade
+  version          - Show the installed version of a package
+
+]0;acer@acer-Aspire-ES1-512: ~/kr/1703[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/1703[00m$ sudo gedit /etc/vsftpd.conf
+^[[B    
+** (gedit:5861): [1;33mWARNING[0m **: [34m21:51:48.700[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5861): [1;33mWARNING[0m **: [34m21:51:48.701[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5861): [1;33mWARNING[0m **: [34m21:51:49.472[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5861): [1;33mWARNING[0m **: [34m21:51:49.473[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5861): [1;33mWARNING[0m **: [34m21:51:49.829[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5861): [1;33mWARNING[0m **: [34m21:51:49.829[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5861): [1;33mWARNING[0m **: [34m21:51:52.661[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;acer@acer-Aspire-ES1-512: ~/kr/1703[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/1703[00m$ hostname -t[KI
+192.168.42.175 2409:4073:401:a668:4df4:7b39:86c2:c153 2409:4073:401:a668:ae7d:4958:9079:8e63 
+]0;acer@acer-Aspire-ES1-512: ~/kr/1703[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/1703[00m$ ftp localhostexit[Kftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:acer): acer
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> exit
+221 Goodbye.
+]0;acer@acer-Aspire-ES1-512: ~/kr/1703[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/1703[00m$ 
+[K]0;acer@acer-Aspire-ES1-512: ~/kr/1703[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/1703[00m$ 
+[K]0;acer@acer-Aspire-ES1-512: ~/kr/1703[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/1703[00m$ sudp[Ko apt-get install apache2
+[sudo] password for acer: ****    
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 92%
+
+Building dependency tree       
+
+
+
+Reading state information... 0%
+
+Reading state information... 30%
+
+Reading state information... Done
+
+
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+0 upgraded, 9 newly installed, 0 to remove and 411 not upgraded.
+Need to get 1,712 kB of archives.
+After this operation, 6,921 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+0% [Connecting to archive.ubuntu.com (91.189.91.38)]
+                                                    
+Get:1 http://archive.ubuntu.com/ubuntu bionic/main amd64 libapr1 amd64 1.6.3-2 [90.9 kB]
+
+                                                    
+0% [1 libapr1 3,342 B/90.9 kB 4%]
+1% [1 libapr1 28.7 kB/90.9 kB 32%]
+3% [1 libapr1 57.7 kB/90.9 kB 63%]
+4% [1 libapr1 77.0 kB/90.9 kB 85%]
+4% [1 libapr1 86.7 kB/90.9 kB 95%]
+                                  
+6% [Working]
+6% [Waiting for headers]
+6% [Waiting for headers]
+6% [Waiting for headers]
+                        
+Get:2 http://archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1 amd64 1.6.1-2 [84.4 kB]
+
+7% [2 libaprutil1 926 B/84.4 kB 1%]
+8% [2 libaprutil1 39.6 kB/84.4 kB 47%]
+10% [2 libaprutil1 71.0 kB/84.4 kB 84%]
+                                       
+13% [Waiting for headers]
+                         
+Get:3 http://archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-2 [10.6 kB]
+
+13% [3 libaprutil1-dbd-sqlite3 2,025 B/10.6 kB 19%]
+15% [Waiting for headers]                                         30.6 kB/s 49s
+                                                                               
+Get:4 http://archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-ldap amd64 1.6.1-2 [8,764 B]
+
+15% [4 libaprutil1-ldap 781 B/8,764 B 9%]                         30.6 kB/s 49s
+18% [Working]                                                     30.6 kB/s 49s
+                                                                               
+Get:5 http://archive.ubuntu.com/ubuntu bionic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108 kB]
+
+18% [5 liblua5.2-0 1,398 B/108 kB 1%]                             30.6 kB/s 49s
+19% [5 liblua5.2-0 30.4 kB/108 kB 28%]                            30.6 kB/s 48s
+20% [5 liblua5.2-0 47.3 kB/108 kB 44%]                            30.6 kB/s 48s
+21% [5 liblua5.2-0 61.8 kB/108 kB 57%]                            30.6 kB/s 47s
+22% [5 liblua5.2-0 81.1 kB/108 kB 75%]                            30.6 kB/s 46s
+22% [5 liblua5.2-0 93.2 kB/108 kB 86%]                            30.6 kB/s 46s
+25% [Waiting for headers]                                         30.6 kB/s 46s
+                                                                               
+Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-bin amd64 2.4.29-1ubuntu4.12 [1,071 kB]
+
+25% [6 apache2-bin 469 B/1,071 kB 0%]                             30.6 kB/s 46s
+26% [6 apache2-bin 21.0 kB/1,071 kB 2%]                           30.6 kB/s 45s
+27% [6 apache2-bin 33.1 kB/1,071 kB 3%]                           30.6 kB/s 45s
+27% [6 apache2-bin 33.1 kB/1,071 kB 3%]                           30.6 kB/s 45s
+27% [6 apache2-bin 33.1 kB/1,071 kB 3%]                           30.6 kB/s 45s
+28% [6 apache2-bin 59.7 kB/1,071 kB 6%]                           30.6 kB/s 44s
+29% [6 apache2-bin 72.9 kB/1,071 kB 7%]                           31.2 kB/s 42s
+30% [6 apache2-bin 103 kB/1,071 kB 10%]                           31.2 kB/s 41s
+32% [6 apache2-bin 136 kB/1,071 kB 13%]                           31.2 kB/s 40s
+33% [6 apache2-bin 171 kB/1,071 kB 16%]                           31.2 kB/s 39s
+35% [6 apache2-bin 206 kB/1,071 kB 19%]                           31.2 kB/s 38s
+37% [6 apache2-bin 244 kB/1,071 kB 23%]                           31.2 kB/s 37s
+39% [6 apache2-bin 288 kB/1,071 kB 27%]                           31.2 kB/s 35s
+41% [6 apache2-bin 333 kB/1,071 kB 31%]                           31.2 kB/s 34s
+43% [6 apache2-bin 389 kB/1,071 kB 36%]                           31.2 kB/s 32s
+47% [6 apache2-bin 464 kB/1,071 kB 43%]                           31.2 kB/s 30s
+52% [6 apache2-bin 563 kB/1,071 kB 53%]                           31.2 kB/s 27s
+56% [6 apache2-bin 649 kB/1,071 kB 61%]                           31.2 kB/s 24s
+60% [6 apache2-bin 735 kB/1,071 kB 69%]                             110 kB/s 6s
+62% [6 apache2-bin 783 kB/1,071 kB 73%]                             110 kB/s 5s
+65% [6 apache2-bin 851 kB/1,071 kB 79%]                             110 kB/s 5s
+67% [6 apache2-bin 894 kB/1,071 kB 84%]                             110 kB/s 4s
+69% [6 apache2-bin 934 kB/1,071 kB 87%]                             110 kB/s 4s
+73% [6 apache2-bin 1,019 kB/1,071 kB 95%]                           110 kB/s 3s
+78% [Waiting for headers]                                           110 kB/s 3s
+                                                                               
+Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-utils amd64 2.4.29-1ubuntu4.12 [83.5 kB]
+
+78% [7 apache2-utils 2,355 B/83.5 kB 3%]                            110 kB/s 3s
+84% [Waiting for headers]                                           110 kB/s 2s
+                                                                               
+Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-data all 2.4.29-1ubuntu4.12 [160 kB]
+
+84% [8 apache2-data 700 B/160 kB 0%]                                110 kB/s 2s
+87% [8 apache2-data 79.2 kB/160 kB 49%]                             110 kB/s 1s
+93% [Waiting for headers]                                           110 kB/s 0s
+                                                                               
+Get:9 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2 amd64 2.4.29-1ubuntu4.12 [95.1 kB]
+
+93% [9 apache2 2,078 B/95.1 kB 2%]                                  110 kB/s 0s
+95% [9 apache2 45.6 kB/95.1 kB 48%]                                 110 kB/s 0s
+100% [Working]                                                      110 kB/s 0s
+                                                                               
+Fetched 1,712 kB in 23s (73.6 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 255503 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.3-2_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.3-2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-2) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.29-1ubuntu4.12_amd64.deb ...
+Unpacking apache2-bin (2.4.29-1ubuntu4.12) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../6-apache2-utils_2.4.29-1ubuntu4.12_amd64.deb ...
+Unpacking apache2-utils (2.4.29-1ubuntu4.12) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../7-apache2-data_2.4.29-1ubuntu4.12_all.deb ...
+Unpacking apache2-data (2.4.29-1ubuntu4.12) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.29-1ubuntu4.12_amd64.deb ...
+Unpacking apache2 (2.4.29-1ubuntu4.12) ...
+Setting up libapr1:amd64 (1.6.3-2) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+Setting up apache2-data (2.4.29-1ubuntu4.12) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libaprutil1:amd64 (1.6.1-2) ...
+Processing triggers for systemd (237-3ubuntu10.23) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-2) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Setting up apache2-utils (2.4.29-1ubuntu4.12) ...
+Setting up apache2-bin (2.4.29-1ubuntu4.12) ...
+Setting up apache2 (2.4.29-1ubuntu4.12) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+Processing triggers for systemd (237-3ubuntu10.23) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+]0;acer@acer-Aspire-ES1-512: ~/kr/1703[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/1703[00m$ sudo gedu[Kit /vat[Kr/www/html/index.html
+
+** (gedit:8302): [1;33mWARNING[0m **: [34m23:50:50.799[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-lan
+
+Script done on 2020-03-17 22:10:03+0530
