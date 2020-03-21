@@ -1,0 +1,50 @@
+CEC CS 18 C36 18-03-2020
+KIRAN U
+
+--------------------------------
+#1: Perl (t8)(1)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Hello world program
+	hellowold.pl
+	
+	# Math operations
+    mathop.pl
+	
+	# Product
+	cal.pl
+
+--------------------------------
+Output: 
+	
+	# Output of helloworld.pl
+    Hello World	
+
+    # Output of mathop.pl
+    Value of $a = 21 and value of $b = 10
+    Value of $a + $b = 31
+    Value of $a - $b = 11
+    Value of $a * $b = 210
+    Value of $a / $b = 2.1
+    Value of $a % $b = 1
+
+    # Output of cal.pl
+    Enter multiplier:5
+    Enter multiplicand:4
+    Product is 20
+
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+	
+	
+	
+

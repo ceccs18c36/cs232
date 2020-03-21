@@ -1,0 +1,17 @@
+Script started on 2020-03-21 22:33:44+0530
+]0;acer@acer-Aspire-ES1-512: ~/kr/2103[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2103[00m$ perl cal.pl
+Can't open perl script "cal.pl": No such file or directory
+]0;acer@acer-Aspire-ES1-512: ~/kr/2103[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2103[00m$ perl cal.pl[C[C[1P cal.pl[1P cal.pl[1P cal.pl[1P cal.plg cal.ple cal.pld cal.pli cal.plt cal.pl
+]0;acer@acer-Aspire-ES1-512: ~/kr/2103[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2103[00m$ gedit cal.pl[1Pperl[C[C[C[C[C[C[C
+Enter multiplier45 
+Enter multiplicand5
+Product is 
+]0;acer@acer-Aspire-ES1-512: ~/kr/2103[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2103[00m$ perl cal.pl[1@gedit[C[C[C[C[C[C[C
+]0;acer@acer-Aspire-ES1-512: ~/kr/2103[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2103[00m$ gedit cal.pl[1Pperl[C[C[C[C[C[C[C
+Enter multiplier:4
+Enter multiplicand:5
+Product is 20
+]0;acer@acer-Aspire-ES1-512: ~/kr/2103[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2103[00m$ exit
+exit
+
+Script done on 2020-03-21 22:37:42+0530
