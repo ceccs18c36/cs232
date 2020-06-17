@@ -1,0 +1,69 @@
+CEC CS 18 C36 17-06-2020
+KIRAN U
+IP Address:10.0.2.15
+
+--------------------------------
+#1: LAMP Stack (t8)(3)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# To update local package cache
+    sudo apt-get update
+	
+	# To install Apache2
+    sudo apt-get install apache2
+	
+	# To install MySQL
+	sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+
+    # To activate MySQL
+    sudo mysql_install_db
+
+    # MySQL setup script
+    sudo /usr/bin/mysql_secure_installation
+
+    # To install PHP
+    sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+
+    # To add php file
+    sudo nano /var/www/info.php
+
+    # To restart apache
+    sudo service apache2 restart
+
+    # To Run script to install LAMP stack
+    bash ./lamp.sh
+
+
+--------------------------------
+Input:
+    
+    #Script file for setting up LAMP
+    lamp.sh
+
+--------------------------------
+--------------------------------
+
+
+#2:Implement Menu Driven Calculator using Shell Script
+---------------------------------------------------------------------------------
+Commands:
+ # shell script
+   mcal.sh
+
+ # To Run Script
+   sh mcal.sh
+---------------------------------------------------------------------------------
+-------------------
+Remarks if any:
+
+ Due to grub related issues virtual box is used to run Ubuntu
+
+-------------------------------------
+-------------------------------------
+	
+	
+	
+

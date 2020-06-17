@@ -1,0 +1,2013 @@
+Script started on 2020-06-17 12:10:07+0530
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/foss/cs232/1006[00m$ sudo apt-get update
+[sudo] password for acer: ****    
+
+0% [Working]
+0% [Connecting to packages.linuxmint.com (68.235.39.11)] [Connecting to archive
+                                                                               
+Hit:1 http://packages.microsoft.com/repos/vscode stable InRelease
+
+0% [Waiting for headers] [Connecting to archive.ubuntu.com (2001:67c:1360:8001:
+0% [1 InRelease gpgv 3,959 B] [Waiting for headers] [Connecting to archive.ubun
+                                                                               
+Ign:2 http://packages.linuxmint.com tina InRelease
+
+0% [1 InRelease gpgv 3,959 B] [Waiting for headers] [Connecting to security.ubu
+                                                                               
+Hit:3 http://archive.ubuntu.com/ubuntu bionic InRelease
+
+0% [1 InRelease gpgv 3,959 B] [Waiting for headers] [Waiting for headers] [Wait
+                                                                               
+Hit:4 http://archive.canonical.com/ubuntu bionic InRelease
+
+0% [1 InRelease gpgv 3,959 B] [Waiting for headers] [Waiting for headers] [Wait
+                                                                               
+0% [Waiting for headers] [Waiting for headers] [Waiting for headers]
+0% [3 InRelease gpgv 242 kB] [Waiting for headers] [Waiting for headers] [Waiti
+                                                                               
+Hit:5 http://packages.linuxmint.com tina Release
+
+                                                                               
+0% [3 InRelease gpgv 242 kB] [Waiting for headers] [Waiting for headers]
+                                                                        
+Get:6 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+
+0% [3 InRelease gpgv 242 kB] [Waiting for headers] [6 InRelease 2,106 B/88.7 kB
+                                                                               
+0% [Waiting for headers] [6 InRelease 9,354 B/88.7 kB 11%]
+0% [4 InRelease gpgv 10.2 kB] [Waiting for headers] [6 InRelease 9,354 B/88.7 k
+                                                                               
+Get:7 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+
+0% [4 InRelease gpgv 10.2 kB] [7 InRelease 914 B/88.7 kB 1%] [6 InRelease 11.8 
+                                                                               
+0% [7 InRelease 13.0 kB/88.7 kB 15%] [6 InRelease 15.4 kB/88.7 kB 17%]
+0% [Release.gpg gpgv 24.2 kB] [7 InRelease 13.0 kB/88.7 kB 15%] [6 InRelease 15
+                                                                               
+0% [7 InRelease 39.6 kB/88.7 kB 45%] [6 InRelease 37.1 kB/88.7 kB 42%]
+0% [7 InRelease 64.9 kB/88.7 kB 73%] [6 InRelease 79.4 kB/88.7 kB 90%]
+                                                                      
+0% [7 InRelease 77.0 kB/88.7 kB 87%]
+0% [6 InRelease gpgv 88.7 kB] [7 InRelease 77.0 kB/88.7 kB 87%]
+                                                               
+0% [6 InRelease gpgv 88.7 kB]
+                             
+0% [Waiting for headers]
+0% [7 InRelease gpgv 88.7 kB] [Waiting for headers]
+                                                   
+0% [Waiting for headers]
+                        
+Get:9 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+
+0% [9 InRelease 914 B/74.6 kB 1%]
+                                 
+0% [Working]
+0% [9 InRelease gpgv 74.6 kB]
+                             
+Get:10 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [889 kB]
+
+0% [9 InRelease gpgv 74.6 kB] [10 Packages 889 kB]
+                                                  
+0% [9 InRelease gpgv 74.6 kB]
+0% [10 Packages store 0 B] [9 InRelease gpgv 74.6 kB] [Waiting for headers]
+                                                                           
+20% [10 Packages store 0 B] [Waiting for headers]
+                                                 
+20% [Waiting for headers]
+                         
+Get:11 http://archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [659 kB]
+
+20% [11 Packages 2,207 B/659 kB 0%]
+20% [11 Packages 165 kB/659 kB 25%]
+20% [11 Packages 322 kB/659 kB 49%]                           227 kB/s 8min 39s
+20% [11 Packages 425 kB/659 kB 65%]                           227 kB/s 8min 39s
+20% [11 Packages 512 kB/659 kB 78%]                           227 kB/s 8min 39s
+21% [11 Packages 634 kB/659 kB 96%]                           227 kB/s 8min 38s
+21% [Waiting for headers]                                     227 kB/s 8min 38s
+                                                                               
+Get:12 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [307 kB]
+
+21% [12 Components-amd64 1,642 B/307 kB 1%]                   227 kB/s 8min 38s
+                                                                               
+21% [11 Packages store 0 B] [12 Components-amd64 1,642 B/307 kB 1%]
+21% [12 Components-amd64 45.1 kB/307 kB 15%]                  227 kB/s 8min 38s
+21% [12 Components-amd64 147 kB/307 kB 48%]                   227 kB/s 8min 37s
+21% [12 Components-amd64 190 kB/307 kB 62%]                   227 kB/s 8min 37s
+21% [12 Components-amd64 230 kB/307 kB 75%]                   227 kB/s 8min 37s
+21% [Waiting for headers]                                     227 kB/s 8min 37s
+21% [12 Components-amd64 store 0 B] [Waiting for headers]     227 kB/s 8min 37s
+                                                                               
+Get:13 http://archive.ubuntu.com/ubuntu bionic-updates i386 Contents (deb) [44.3 MB]
+
+                                                                               
+21% [12 Components-amd64 store 0 B] [13 Contents-i386 1,177 B/44.3 MB 0%]
+21% [13 Contents-i386 35.0 kB/44.3 MB 0%]                     227 kB/s 8min 36s
+21% [13 Contents-i386 128 kB/44.3 MB 0%]                      227 kB/s 8min 36s
+21% [13 Contents-i386 219 kB/44.3 MB 0%]                      227 kB/s 8min 36s
+21% [13 Contents-i386 261 kB/44.3 MB 1%]                      227 kB/s 8min 35s
+21% [13 Contents-i386 308 kB/44.3 MB 1%]                      227 kB/s 8min 35s
+21% [13 Contents-i386 332 kB/44.3 MB 1%]                     153 kB/s 12min 46s
+21% [13 Contents-i386 376 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 413 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 463 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 504 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 504 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 504 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 504 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 504 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 504 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 504 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 504 kB/44.3 MB 1%]                     153 kB/s 12min 45s
+21% [13 Contents-i386 504 kB/44.3 MB 1%]                  28.5 kB/s 1h 8min 24s
+21% [13 Contents-i386 505 kB/44.3 MB 1%]                  28.5 kB/s 1h 8min 24s
+21% [13 Contents-i386 505 kB/44.3 MB 1%]                  28.5 kB/s 1h 8min 24s
+21% [13 Contents-i386 596 kB/44.3 MB 1%]                  28.5 kB/s 1h 8min 21s
+21% [13 Contents-i386 695 kB/44.3 MB 2%]                  28.5 kB/s 1h 8min 17s
+21% [13 Contents-i386 785 kB/44.3 MB 2%]                  28.5 kB/s 1h 8min 14s
+22% [13 Contents-i386 905 kB/44.3 MB 2%]                  28.5 kB/s 1h 8min 10s
+22% [13 Contents-i386 958 kB/44.3 MB 2%]                   28.5 kB/s 1h 8min 8s
+22% [13 Contents-i386 989 kB/44.3 MB 2%]                   28.5 kB/s 1h 8min 7s
+22% [13 Contents-i386 1,050 kB/44.3 MB 2%]                 28.5 kB/s 1h 8min 5s
+22% [13 Contents-i386 1,180 kB/44.3 MB 3%]                 28.5 kB/s 1h 8min 0s
+22% [13 Contents-i386 1,245 kB/44.3 MB 3%]                28.5 kB/s 1h 7min 58s
+22% [13 Contents-i386 1,255 kB/44.3 MB 3%]                   125 kB/s 15min 31s
+22% [13 Contents-i386 1,341 kB/44.3 MB 3%]                   125 kB/s 15min 30s
+22% [13 Contents-i386 1,424 kB/44.3 MB 3%]                   125 kB/s 15min 29s
+22% [13 Contents-i386 1,474 kB/44.3 MB 3%]                   125 kB/s 15min 29s
+22% [13 Contents-i386 1,521 kB/44.3 MB 3%]                   125 kB/s 15min 29s
+22% [13 Contents-i386 1,550 kB/44.3 MB 3%]                   125 kB/s 15min 28s
+22% [13 Contents-i386 1,632 kB/44.3 MB 4%]                   125 kB/s 15min 28s
+22% [13 Contents-i386 1,709 kB/44.3 MB 4%]                   125 kB/s 15min 27s
+22% [13 Contents-i386 1,784 kB/44.3 MB 4%]                   125 kB/s 15min 26s
+22% [13 Contents-i386 1,828 kB/44.3 MB 4%]                   125 kB/s 15min 26s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   125 kB/s 15min 26s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   125 kB/s 15min 26s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,869 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,870 kB/44.3 MB 4%]                   102 kB/s 18min 54s
+22% [13 Contents-i386 1,927 kB/44.3 MB 4%]                   102 kB/s 18min 53s
+22% [13 Contents-i386 2,009 kB/44.3 MB 5%]                   102 kB/s 18min 52s
+22% [13 Contents-i386 2,063 kB/44.3 MB 5%]                  32.3 kB/s 59min 31s
+22% [13 Contents-i386 2,080 kB/44.3 MB 5%]                  32.3 kB/s 59min 31s
+22% [13 Contents-i386 2,102 kB/44.3 MB 5%]                  32.3 kB/s 59min 30s
+22% [13 Contents-i386 2,167 kB/44.3 MB 5%]                  32.3 kB/s 59min 28s
+22% [13 Contents-i386 2,215 kB/44.3 MB 5%]                  32.3 kB/s 59min 26s
+22% [13 Contents-i386 2,240 kB/44.3 MB 5%]                  32.3 kB/s 59min 26s
+22% [13 Contents-i386 2,259 kB/44.3 MB 5%]                  32.3 kB/s 59min 25s
+22% [13 Contents-i386 2,318 kB/44.3 MB 5%]                  32.3 kB/s 59min 23s
+23% [13 Contents-i386 2,368 kB/44.3 MB 5%]                  32.3 kB/s 59min 22s
+23% [13 Contents-i386 2,417 kB/44.3 MB 5%]                  32.3 kB/s 59min 20s
+23% [13 Contents-i386 2,493 kB/44.3 MB 6%]                  32.3 kB/s 59min 18s
+23% [13 Contents-i386 2,552 kB/44.3 MB 6%]                  32.3 kB/s 59min 16s
+23% [13 Contents-i386 2,626 kB/44.3 MB 6%]                  93.6 kB/s 20min 28s
+23% [13 Contents-i386 2,696 kB/44.3 MB 6%]                  93.6 kB/s 20min 27s
+23% [13 Contents-i386 2,718 kB/44.3 MB 6%]                  93.6 kB/s 20min 27s
+23% [13 Contents-i386 2,757 kB/44.3 MB 6%]                  93.6 kB/s 20min 26s
+23% [13 Contents-i386 2,821 kB/44.3 MB 6%]                  93.6 kB/s 20min 25s
+23% [13 Contents-i386 2,846 kB/44.3 MB 6%]                  93.6 kB/s 20min 25s
+23% [13 Contents-i386 2,870 kB/44.3 MB 6%]                  93.6 kB/s 20min 25s
+23% [13 Contents-i386 2,873 kB/44.3 MB 6%]                  93.6 kB/s 20min 25s
+23% [13 Contents-i386 2,873 kB/44.3 MB 6%]                  93.6 kB/s 20min 25s
+23% [13 Contents-i386 2,873 kB/44.3 MB 6%]                  93.6 kB/s 20min 25s
+23% [13 Contents-i386 2,877 kB/44.3 MB 6%]                  93.6 kB/s 20min 25s
+23% [13 Contents-i386 2,898 kB/44.3 MB 7%]                  93.6 kB/s 20min 25s
+23% [13 Contents-i386 2,973 kB/44.3 MB 7%]                   57.6 kB/s 33min 7s
+23% [13 Contents-i386 3,065 kB/44.3 MB 7%]                   57.6 kB/s 33min 6s
+23% [13 Contents-i386 3,080 kB/44.3 MB 7%]                   57.6 kB/s 33min 6s
+23% [13 Contents-i386 3,105 kB/44.3 MB 7%]                   57.6 kB/s 33min 5s
+23% [13 Contents-i386 3,153 kB/44.3 MB 7%]                   57.6 kB/s 33min 4s
+23% [13 Contents-i386 3,224 kB/44.3 MB 7%]                   57.6 kB/s 33min 3s
+23% [13 Contents-i386 3,247 kB/44.3 MB 7%]                   57.6 kB/s 33min 3s
+23% [13 Contents-i386 3,262 kB/44.3 MB 7%]                   57.6 kB/s 33min 2s
+23% [13 Contents-i386 3,298 kB/44.3 MB 7%]                   57.6 kB/s 33min 2s
+23% [13 Contents-i386 3,362 kB/44.3 MB 8%]                   57.6 kB/s 33min 1s
+23% [13 Contents-i386 3,438 kB/44.3 MB 8%]                  57.6 kB/s 32min 59s
+23% [13 Contents-i386 3,514 kB/44.3 MB 8%]                  57.6 kB/s 32min 58s
+23% [13 Contents-i386 3,594 kB/44.3 MB 8%]                   103 kB/s 18min 24s
+23% [13 Contents-i386 3,687 kB/44.3 MB 8%]                   103 kB/s 18min 23s
+23% [13 Contents-i386 3,767 kB/44.3 MB 8%]                   103 kB/s 18min 22s
+23% [13 Contents-i386 3,829 kB/44.3 MB 9%]                   103 kB/s 18min 21s
+24% [13 Contents-i386 3,948 kB/44.3 MB 9%]                   103 kB/s 18min 20s
+24% [13 Contents-i386 4,014 kB/44.3 MB 9%]                   103 kB/s 18min 20s
+24% [13 Contents-i386 4,105 kB/44.3 MB 9%]                   103 kB/s 18min 19s
+24% [13 Contents-i386 4,205 kB/44.3 MB 9%]                   103 kB/s 18min 18s
+24% [13 Contents-i386 4,334 kB/44.3 MB 10%]                  103 kB/s 18min 17s
+24% [13 Contents-i386 4,412 kB/44.3 MB 10%]                  103 kB/s 18min 16s
+24% [13 Contents-i386 4,531 kB/44.3 MB 10%]                  103 kB/s 18min 15s
+24% [13 Contents-i386 4,612 kB/44.3 MB 10%]                  103 kB/s 18min 14s
+24% [13 Contents-i386 4,677 kB/44.3 MB 11%]                  180 kB/s 10min 26s
+24% [13 Contents-i386 4,758 kB/44.3 MB 11%]                  180 kB/s 10min 26s
+24% [13 Contents-i386 4,834 kB/44.3 MB 11%]                  180 kB/s 10min 25s
+24% [13 Contents-i386 4,857 kB/44.3 MB 11%]                  180 kB/s 10min 25s
+24% [13 Contents-i386 4,906 kB/44.3 MB 11%]                  180 kB/s 10min 25s
+24% [13 Contents-i386 4,936 kB/44.3 MB 11%]                  180 kB/s 10min 25s
+24% [13 Contents-i386 4,999 kB/44.3 MB 11%]                  180 kB/s 10min 24s
+24% [13 Contents-i386 5,043 kB/44.3 MB 11%]                  180 kB/s 10min 24s
+24% [13 Contents-i386 5,081 kB/44.3 MB 11%]                  180 kB/s 10min 24s
+24% [13 Contents-i386 5,083 kB/44.3 MB 11%]                  180 kB/s 10min 24s
+24% [13 Contents-i386 5,086 kB/44.3 MB 11%]                  180 kB/s 10min 24s
+24% [13 Contents-i386 5,086 kB/44.3 MB 11%]                  180 kB/s 10min 24s
+24% [13 Contents-i386 5,086 kB/44.3 MB 11%]                 67.9 kB/s 27min 37s
+24% [13 Contents-i386 5,090 kB/44.3 MB 11%]                 67.9 kB/s 27min 37s
+24% [13 Contents-i386 5,090 kB/44.3 MB 11%]                 67.9 kB/s 27min 37s
+24% [13 Contents-i386 5,090 kB/44.3 MB 11%]                 67.9 kB/s 27min 37s
+24% [13 Contents-i386 5,118 kB/44.3 MB 12%]                 67.9 kB/s 27min 36s
+24% [13 Contents-i386 5,229 kB/44.3 MB 12%]                 67.9 kB/s 27min 35s
+25% [13 Contents-i386 5,354 kB/44.3 MB 12%]                 67.9 kB/s 27min 33s
+25% [13 Contents-i386 5,487 kB/44.3 MB 12%]                 67.9 kB/s 27min 31s
+25% [13 Contents-i386 5,614 kB/44.3 MB 13%]                 67.9 kB/s 27min 29s
+25% [13 Contents-i386 5,752 kB/44.3 MB 13%]                 67.9 kB/s 27min 27s
+25% [13 Contents-i386 5,916 kB/44.3 MB 13%]                 67.9 kB/s 27min 25s
+25% [13 Contents-i386 6,088 kB/44.3 MB 14%]                 67.9 kB/s 27min 22s
+25% [13 Contents-i386 6,271 kB/44.3 MB 14%]                   197 kB/s 9min 24s
+25% [13 Contents-i386 6,482 kB/44.3 MB 15%]                   197 kB/s 9min 23s
+25% [13 Contents-i386 6,702 kB/44.3 MB 15%]                   197 kB/s 9min 22s
+26% [13 Contents-i386 6,942 kB/44.3 MB 16%]                   197 kB/s 9min 21s
+26% [13 Contents-i386 7,169 kB/44.3 MB 16%]                   197 kB/s 9min 20s
+26% [13 Contents-i386 7,405 kB/44.3 MB 17%]                   197 kB/s 9min 19s
+26% [13 Contents-i386 7,508 kB/44.3 MB 17%]                   197 kB/s 9min 18s
+26% [13 Contents-i386 7,626 kB/44.3 MB 17%]                   197 kB/s 9min 17s
+26% [13 Contents-i386 7,740 kB/44.3 MB 17%]                   197 kB/s 9min 17s
+26% [13 Contents-i386 7,865 kB/44.3 MB 18%]                   197 kB/s 9min 16s
+26% [13 Contents-i386 7,998 kB/44.3 MB 18%]                   197 kB/s 9min 16s
+26% [13 Contents-i386 8,155 kB/44.3 MB 18%]                   197 kB/s 9min 15s
+26% [13 Contents-i386 8,264 kB/44.3 MB 19%]                   331 kB/s 5min 29s
+26% [13 Contents-i386 8,327 kB/44.3 MB 19%]                   331 kB/s 5min 29s
+27% [13 Contents-i386 8,390 kB/44.3 MB 19%]                   331 kB/s 5min 29s
+27% [13 Contents-i386 8,503 kB/44.3 MB 19%]                   331 kB/s 5min 29s
+27% [13 Contents-i386 8,624 kB/44.3 MB 19%]                   331 kB/s 5min 28s
+27% [13 Contents-i386 8,658 kB/44.3 MB 20%]                   331 kB/s 5min 28s
+27% [13 Contents-i386 8,658 kB/44.3 MB 20%]                   331 kB/s 5min 28s
+27% [13 Contents-i386 8,663 kB/44.3 MB 20%]                   331 kB/s 5min 28s
+27% [13 Contents-i386 8,807 kB/44.3 MB 20%]                   331 kB/s 5min 28s
+27% [13 Contents-i386 9,050 kB/44.3 MB 20%]                   331 kB/s 5min 27s
+27% [13 Contents-i386 9,126 kB/44.3 MB 21%]                   331 kB/s 5min 27s
+27% [13 Contents-i386 9,192 kB/44.3 MB 21%]                   331 kB/s 5min 27s
+27% [13 Contents-i386 9,216 kB/44.3 MB 21%]                  158 kB/s 11min 24s
+27% [13 Contents-i386 9,346 kB/44.3 MB 21%]                  158 kB/s 11min 23s
+27% [13 Contents-i386 9,472 kB/44.3 MB 21%]                  158 kB/s 11min 23s
+27% [13 Contents-i386 9,472 kB/44.3 MB 21%]                  158 kB/s 11min 23s
+27% [13 Contents-i386 9,472 kB/44.3 MB 21%]                  158 kB/s 11min 23s
+27% [13 Contents-i386 9,546 kB/44.3 MB 22%]                  158 kB/s 11min 22s
+27% [13 Contents-i386 9,668 kB/44.3 MB 22%]                  158 kB/s 11min 21s
+27% [13 Contents-i386 9,680 kB/44.3 MB 22%]                  158 kB/s 11min 21s
+27% [13 Contents-i386 9,689 kB/44.3 MB 22%]                  158 kB/s 11min 21s
+27% [13 Contents-i386 9,759 kB/44.3 MB 22%]                  158 kB/s 11min 21s
+28% [13 Contents-i386 9,856 kB/44.3 MB 22%]                  158 kB/s 11min 20s
+28% [13 Contents-i386 9,878 kB/44.3 MB 22%]                  158 kB/s 11min 20s
+28% [13 Contents-i386 9,904 kB/44.3 MB 22%]                  114 kB/s 15min 40s
+28% [13 Contents-i386 9,982 kB/44.3 MB 23%]                  114 kB/s 15min 40s
+28% [13 Contents-i386 10.0 MB/44.3 MB 23%]                   114 kB/s 15min 39s
+28% [13 Contents-i386 10.1 MB/44.3 MB 23%]                   114 kB/s 15min 39s
+28% [13 Contents-i386 10.1 MB/44.3 MB 23%]                   114 kB/s 15min 39s
+28% [13 Contents-i386 10.1 MB/44.3 MB 23%]                   114 kB/s 15min 39s
+28% [13 Contents-i386 10.1 MB/44.3 MB 23%]                   114 kB/s 15min 39s
+28% [13 Contents-i386 10.1 MB/44.3 MB 23%]                   114 kB/s 15min 39s
+28% [13 Contents-i386 10.2 MB/44.3 MB 23%]                   114 kB/s 15min 38s
+28% [13 Contents-i386 10.3 MB/44.3 MB 23%]                   114 kB/s 15min 37s
+28% [13 Contents-i386 10.3 MB/44.3 MB 23%]                   114 kB/s 15min 37s
+28% [13 Contents-i386 10.3 MB/44.3 MB 23%]                   114 kB/s 15min 36s
+28% [13 Contents-i386 10.4 MB/44.3 MB 23%]                  79.5 kB/s 22min 28s
+28% [13 Contents-i386 10.5 MB/44.3 MB 24%]                  79.5 kB/s 22min 27s
+28% [13 Contents-i386 10.5 MB/44.3 MB 24%]                  79.5 kB/s 22min 26s
+28% [13 Contents-i386 10.5 MB/44.3 MB 24%]                  79.5 kB/s 22min 26s
+28% [13 Contents-i386 10.6 MB/44.3 MB 24%]                  79.5 kB/s 22min 25s
+28% [13 Contents-i386 10.7 MB/44.3 MB 24%]                  79.5 kB/s 22min 24s
+28% [13 Contents-i386 10.8 MB/44.3 MB 24%]                  79.5 kB/s 22min 23s
+28% [13 Contents-i386 10.9 MB/44.3 MB 25%]                  79.5 kB/s 22min 21s
+28% [13 Contents-i386 11.0 MB/44.3 MB 25%]                  79.5 kB/s 22min 20s
+28% [13 Contents-i386 11.1 MB/44.3 MB 25%]                  79.5 kB/s 22min 18s
+28% [13 Contents-i386 11.2 MB/44.3 MB 25%]                  79.5 kB/s 22min 17s
+29% [13 Contents-i386 11.3 MB/44.3 MB 26%]                  79.5 kB/s 22min 16s
+29% [13 Contents-i386 11.4 MB/44.3 MB 26%]                   169 kB/s 10min 28s
+29% [13 Contents-i386 11.5 MB/44.3 MB 26%]                   169 kB/s 10min 27s
+29% [13 Contents-i386 11.6 MB/44.3 MB 26%]                   169 kB/s 10min 26s
+29% [13 Contents-i386 11.7 MB/44.3 MB 26%]                   169 kB/s 10min 26s
+29% [13 Contents-i386 11.7 MB/44.3 MB 26%]                   169 kB/s 10min 26s
+29% [13 Contents-i386 11.7 MB/44.3 MB 26%]                   169 kB/s 10min 26s
+29% [13 Contents-i386 11.7 MB/44.3 MB 26%]                   169 kB/s 10min 26s
+29% [13 Contents-i386 11.7 MB/44.3 MB 26%]                   169 kB/s 10min 26s
+29% [13 Contents-i386 11.7 MB/44.3 MB 27%]                   169 kB/s 10min 25s
+29% [13 Contents-i386 11.9 MB/44.3 MB 27%]                   169 kB/s 10min 25s
+29% [13 Contents-i386 11.9 MB/44.3 MB 27%]                   169 kB/s 10min 25s
+29% [13 Contents-i386 12.0 MB/44.3 MB 27%]                   169 kB/s 10min 24s
+29% [13 Contents-i386 12.0 MB/44.3 MB 27%]                   102 kB/s 17min 14s
+29% [13 Contents-i386 12.1 MB/44.3 MB 27%]                   102 kB/s 17min 14s
+29% [13 Contents-i386 12.1 MB/44.3 MB 27%]                   102 kB/s 17min 13s
+29% [13 Contents-i386 12.2 MB/44.3 MB 27%]                   102 kB/s 17min 13s
+29% [13 Contents-i386 12.2 MB/44.3 MB 28%]                   102 kB/s 17min 12s
+29% [13 Contents-i386 12.3 MB/44.3 MB 28%]                   102 kB/s 17min 12s
+29% [13 Contents-i386 12.3 MB/44.3 MB 28%]                   102 kB/s 17min 11s
+29% [13 Contents-i386 12.4 MB/44.3 MB 28%]                   102 kB/s 17min 11s
+29% [13 Contents-i386 12.4 MB/44.3 MB 28%]                   102 kB/s 17min 10s
+29% [13 Contents-i386 12.5 MB/44.3 MB 28%]                   102 kB/s 17min 10s
+29% [13 Contents-i386 12.5 MB/44.3 MB 28%]                    102 kB/s 17min 9s
+29% [13 Contents-i386 12.6 MB/44.3 MB 28%]                    102 kB/s 17min 9s
+29% [13 Contents-i386 12.6 MB/44.3 MB 28%]                    103 kB/s 17min 0s
+29% [13 Contents-i386 12.7 MB/44.3 MB 29%]                    103 kB/s 17min 0s
+29% [13 Contents-i386 12.7 MB/44.3 MB 29%]                   103 kB/s 16min 59s
+29% [13 Contents-i386 12.8 MB/44.3 MB 29%]                   103 kB/s 16min 59s
+29% [13 Contents-i386 12.8 MB/44.3 MB 29%]                   103 kB/s 16min 59s
+29% [13 Contents-i386 12.8 MB/44.3 MB 29%]                   103 kB/s 16min 59s
+29% [13 Contents-i386 12.8 MB/44.3 MB 29%]                   103 kB/s 16min 59s
+29% [13 Contents-i386 12.8 MB/44.3 MB 29%]                   103 kB/s 16min 59s
+29% [13 Contents-i386 12.8 MB/44.3 MB 29%]                   103 kB/s 16min 59s
+30% [13 Contents-i386 12.9 MB/44.3 MB 29%]                   103 kB/s 16min 58s
+30% [13 Contents-i386 12.9 MB/44.3 MB 29%]                   103 kB/s 16min 57s
+30% [13 Contents-i386 13.0 MB/44.3 MB 29%]                   103 kB/s 16min 57s
+30% [13 Contents-i386 13.0 MB/44.3 MB 29%]                   57.8 kB/s 30min 8s
+30% [13 Contents-i386 13.0 MB/44.3 MB 29%]                   57.8 kB/s 30min 7s
+30% [13 Contents-i386 13.1 MB/44.3 MB 29%]                   57.8 kB/s 30min 7s
+30% [13 Contents-i386 13.1 MB/44.3 MB 30%]                   57.8 kB/s 30min 6s
+30% [13 Contents-i386 13.1 MB/44.3 MB 30%]                   57.8 kB/s 30min 5s
+30% [13 Contents-i386 13.2 MB/44.3 MB 30%]                   57.8 kB/s 30min 5s
+30% [13 Contents-i386 13.2 MB/44.3 MB 30%]                   57.8 kB/s 30min 5s
+30% [13 Contents-i386 13.2 MB/44.3 MB 30%]                   57.8 kB/s 30min 4s
+30% [13 Contents-i386 13.2 MB/44.3 MB 30%]                   57.8 kB/s 30min 4s
+30% [13 Contents-i386 13.2 MB/44.3 MB 30%]                   57.8 kB/s 30min 4s
+30% [13 Contents-i386 13.3 MB/44.3 MB 30%]                   57.8 kB/s 30min 3s
+30% [13 Contents-i386 13.3 MB/44.3 MB 30%]                   57.8 kB/s 30min 3s
+30% [13 Contents-i386 13.3 MB/44.3 MB 30%]                  52.8 kB/s 32min 54s
+30% [13 Contents-i386 13.3 MB/44.3 MB 30%]                  52.8 kB/s 32min 54s
+30% [13 Contents-i386 13.3 MB/44.3 MB 30%]                  52.8 kB/s 32min 53s
+30% [13 Contents-i386 13.4 MB/44.3 MB 30%]                  52.8 kB/s 32min 52s
+30% [13 Contents-i386 13.4 MB/44.3 MB 30%]                  52.8 kB/s 32min 51s
+30% [13 Contents-i386 13.5 MB/44.3 MB 30%]                  52.8 kB/s 32min 51s
+30% [13 Contents-i386 13.5 MB/44.3 MB 30%]                  52.8 kB/s 32min 51s
+30% [13 Contents-i386 13.5 MB/44.3 MB 30%]                  52.8 kB/s 32min 50s
+30% [13 Contents-i386 13.6 MB/44.3 MB 31%]                  52.8 kB/s 32min 49s
+30% [13 Contents-i386 13.6 MB/44.3 MB 31%]                  52.8 kB/s 32min 48s
+30% [13 Contents-i386 13.7 MB/44.3 MB 31%]                  52.8 kB/s 32min 47s
+30% [13 Contents-i386 13.7 MB/44.3 MB 31%]                  52.8 kB/s 32min 47s
+30% [13 Contents-i386 13.7 MB/44.3 MB 31%]                  65.3 kB/s 26min 31s
+30% [13 Contents-i386 13.7 MB/44.3 MB 31%]                  65.3 kB/s 26min 31s
+30% [13 Contents-i386 13.8 MB/44.3 MB 31%]                  65.3 kB/s 26min 30s
+30% [13 Contents-i386 13.8 MB/44.3 MB 31%]                  65.3 kB/s 26min 30s
+30% [13 Contents-i386 13.8 MB/44.3 MB 31%]                  65.3 kB/s 26min 29s
+30% [13 Contents-i386 13.8 MB/44.3 MB 31%]                  65.3 kB/s 26min 29s
+30% [13 Contents-i386 13.9 MB/44.3 MB 31%]                  65.3 kB/s 26min 28s
+30% [13 Contents-i386 13.9 MB/44.3 MB 31%]                  65.3 kB/s 26min 28s
+30% [13 Contents-i386 13.9 MB/44.3 MB 31%]                  65.3 kB/s 26min 28s
+30% [13 Contents-i386 14.0 MB/44.3 MB 31%]                  65.3 kB/s 26min 27s
+30% [13 Contents-i386 14.0 MB/44.3 MB 32%]                  65.3 kB/s 26min 26s
+30% [13 Contents-i386 14.1 MB/44.3 MB 32%]                  65.3 kB/s 26min 26s
+30% [13 Contents-i386 14.1 MB/44.3 MB 32%]                  71.3 kB/s 24min 11s
+30% [13 Contents-i386 14.2 MB/44.3 MB 32%]                  71.3 kB/s 24min 10s
+30% [13 Contents-i386 14.2 MB/44.3 MB 32%]                   71.3 kB/s 24min 9s
+30% [13 Contents-i386 14.3 MB/44.3 MB 32%]                   71.3 kB/s 24min 9s
+30% [13 Contents-i386 14.3 MB/44.3 MB 32%]                   71.3 kB/s 24min 9s
+31% [13 Contents-i386 14.3 MB/44.3 MB 32%]                   71.3 kB/s 24min 8s
+31% [13 Contents-i386 14.4 MB/44.3 MB 32%]                   71.3 kB/s 24min 7s
+31% [13 Contents-i386 14.5 MB/44.3 MB 33%]                   71.3 kB/s 24min 6s
+31% [13 Contents-i386 14.5 MB/44.3 MB 33%]                   71.3 kB/s 24min 5s
+31% [13 Contents-i386 14.6 MB/44.3 MB 33%]                   71.3 kB/s 24min 4s
+31% [13 Contents-i386 14.7 MB/44.3 MB 33%]                   71.3 kB/s 24min 3s
+31% [13 Contents-i386 14.8 MB/44.3 MB 33%]                   71.3 kB/s 24min 1s
+31% [13 Contents-i386 14.9 MB/44.3 MB 34%]                   127 kB/s 13min 30s
+31% [13 Contents-i386 15.0 MB/44.3 MB 34%]                   127 kB/s 13min 29s
+31% [13 Contents-i386 15.1 MB/44.3 MB 34%]                   127 kB/s 13min 28s
+31% [13 Contents-i386 15.2 MB/44.3 MB 34%]                   127 kB/s 13min 27s
+31% [13 Contents-i386 15.4 MB/44.3 MB 35%]                   127 kB/s 13min 26s
+31% [13 Contents-i386 15.5 MB/44.3 MB 35%]                   127 kB/s 13min 25s
+31% [13 Contents-i386 15.7 MB/44.3 MB 35%]                   127 kB/s 13min 24s
+32% [13 Contents-i386 15.9 MB/44.3 MB 36%]                   127 kB/s 13min 22s
+32% [13 Contents-i386 16.0 MB/44.3 MB 36%]                   127 kB/s 13min 21s
+32% [13 Contents-i386 16.2 MB/44.3 MB 36%]                   127 kB/s 13min 20s
+32% [13 Contents-i386 16.4 MB/44.3 MB 37%]                   127 kB/s 13min 18s
+32% [13 Contents-i386 16.5 MB/44.3 MB 37%]                   127 kB/s 13min 17s
+32% [13 Contents-i386 16.7 MB/44.3 MB 38%]                    310 kB/s 5min 25s
+32% [13 Contents-i386 17.0 MB/44.3 MB 38%]                    310 kB/s 5min 24s
+32% [13 Contents-i386 17.2 MB/44.3 MB 39%]                    310 kB/s 5min 23s
+33% [13 Contents-i386 17.4 MB/44.3 MB 39%]                    310 kB/s 5min 23s
+33% [13 Contents-i386 17.6 MB/44.3 MB 40%]                    310 kB/s 5min 22s
+33% [13 Contents-i386 17.8 MB/44.3 MB 40%]                    310 kB/s 5min 22s
+33% [13 Contents-i386 18.0 MB/44.3 MB 40%]                    310 kB/s 5min 21s
+33% [13 Contents-i386 18.1 MB/44.3 MB 41%]                    310 kB/s 5min 20s
+33% [13 Contents-i386 18.3 MB/44.3 MB 41%]                    310 kB/s 5min 20s
+33% [13 Contents-i386 18.3 MB/44.3 MB 41%]                    310 kB/s 5min 20s
+33% [13 Contents-i386 18.3 MB/44.3 MB 41%]                    310 kB/s 5min 20s
+33% [13 Contents-i386 18.5 MB/44.3 MB 42%]                    310 kB/s 5min 19s
+33% [13 Contents-i386 18.7 MB/44.3 MB 42%]                    317 kB/s 5min 11s
+33% [13 Contents-i386 18.7 MB/44.3 MB 42%]                    317 kB/s 5min 11s
+34% [13 Contents-i386 18.8 MB/44.3 MB 43%]                    317 kB/s 5min 10s
+34% [13 Contents-i386 18.9 MB/44.3 MB 43%]                    317 kB/s 5min 10s
+34% [13 Contents-i386 18.9 MB/44.3 MB 43%]                    317 kB/s 5min 10s
+34% [13 Contents-i386 19.0 MB/44.3 MB 43%]                    317 kB/s 5min 10s
+34% [13 Contents-i386 19.1 MB/44.3 MB 43%]                    317 kB/s 5min 10s
+34% [13 Contents-i386 19.2 MB/44.3 MB 43%]                     317 kB/s 5min 9s
+34% [13 Contents-i386 19.2 MB/44.3 MB 43%]                     317 kB/s 5min 9s
+34% [13 Contents-i386 19.3 MB/44.3 MB 44%]                     317 kB/s 5min 9s
+34% [13 Contents-i386 19.4 MB/44.3 MB 44%]                     317 kB/s 5min 9s
+34% [13 Contents-i386 19.4 MB/44.3 MB 44%]                     317 kB/s 5min 9s
+34% [13 Contents-i386 19.5 MB/44.3 MB 44%]                   140 kB/s 11min 41s
+34% [13 Contents-i386 19.6 MB/44.3 MB 44%]                   140 kB/s 11min 40s
+34% [13 Contents-i386 19.7 MB/44.3 MB 44%]                   140 kB/s 11min 40s
+34% [13 Contents-i386 19.7 MB/44.3 MB 44%]                   140 kB/s 11min 40s
+34% [13 Contents-i386 19.8 MB/44.3 MB 45%]                   140 kB/s 11min 39s
+34% [13 Contents-i386 19.9 MB/44.3 MB 45%]                   140 kB/s 11min 38s
+34% [13 Contents-i386 20.0 MB/44.3 MB 45%]                   140 kB/s 11min 38s
+34% [13 Contents-i386 20.1 MB/44.3 MB 45%]                   140 kB/s 11min 37s
+34% [13 Contents-i386 20.1 MB/44.3 MB 45%]                   140 kB/s 11min 37s
+34% [13 Contents-i386 20.1 MB/44.3 MB 45%]                   140 kB/s 11min 37s
+34% [13 Contents-i386 20.2 MB/44.3 MB 46%]                   140 kB/s 11min 36s
+35% [13 Contents-i386 20.4 MB/44.3 MB 46%]                   140 kB/s 11min 35s
+35% [13 Contents-i386 20.5 MB/44.3 MB 46%]                    170 kB/s 9min 29s
+35% [13 Contents-i386 20.7 MB/44.3 MB 47%]                    170 kB/s 9min 29s
+35% [13 Contents-i386 20.8 MB/44.3 MB 47%]                    170 kB/s 9min 28s
+35% [13 Contents-i386 21.0 MB/44.3 MB 47%]                    170 kB/s 9min 27s
+35% [13 Contents-i386 21.2 MB/44.3 MB 48%]                    170 kB/s 9min 26s
+35% [13 Contents-i386 21.4 MB/44.3 MB 48%]                    170 kB/s 9min 24s
+35% [13 Contents-i386 21.6 MB/44.3 MB 49%]                    170 kB/s 9min 23s
+36% [13 Contents-i386 21.8 MB/44.3 MB 49%]                    170 kB/s 9min 22s
+36% [13 Contents-i386 22.0 MB/44.3 MB 50%]                    170 kB/s 9min 21s
+36% [13 Contents-i386 22.1 MB/44.3 MB 50%]                    170 kB/s 9min 20s
+36% [13 Contents-i386 22.3 MB/44.3 MB 50%]                    170 kB/s 9min 19s
+36% [13 Contents-i386 22.5 MB/44.3 MB 51%]                    170 kB/s 9min 18s
+36% [13 Contents-i386 22.6 MB/44.3 MB 51%]                    354 kB/s 4min 28s
+36% [13 Contents-i386 22.9 MB/44.3 MB 52%]                    354 kB/s 4min 27s
+36% [13 Contents-i386 23.0 MB/44.3 MB 52%]                    354 kB/s 4min 27s
+36% [13 Contents-i386 23.1 MB/44.3 MB 52%]                    354 kB/s 4min 26s
+36% [13 Contents-i386 23.3 MB/44.3 MB 52%]                    354 kB/s 4min 26s
+37% [13 Contents-i386 23.5 MB/44.3 MB 53%]                    354 kB/s 4min 25s
+37% [13 Contents-i386 23.6 MB/44.3 MB 53%]                    354 kB/s 4min 25s
+37% [13 Contents-i386 23.6 MB/44.3 MB 53%]                    354 kB/s 4min 25s
+37% [13 Contents-i386 23.6 MB/44.3 MB 53%]                    354 kB/s 4min 25s
+37% [13 Contents-i386 23.6 MB/44.3 MB 53%]                    354 kB/s 4min 25s
+37% [13 Contents-i386 23.6 MB/44.3 MB 53%]                    354 kB/s 4min 25s
+37% [13 Contents-i386 23.6 MB/44.3 MB 53%]                    354 kB/s 4min 25s
+37% [13 Contents-i386 23.6 MB/44.3 MB 53%]                    165 kB/s 9min 30s
+37% [13 Contents-i386 23.6 MB/44.3 MB 53%]                    165 kB/s 9min 30s
+37% [13 Contents-i386 23.8 MB/44.3 MB 54%]                    165 kB/s 9min 29s
+37% [13 Contents-i386 23.9 MB/44.3 MB 54%]                    165 kB/s 9min 28s
+37% [13 Contents-i386 24.0 MB/44.3 MB 54%]                    165 kB/s 9min 28s
+37% [13 Contents-i386 24.0 MB/44.3 MB 54%]                    165 kB/s 9min 28s
+37% [13 Contents-i386 24.2 MB/44.3 MB 55%]                    165 kB/s 9min 26s
+37% [13 Contents-i386 24.3 MB/44.3 MB 55%]                    165 kB/s 9min 26s
+37% [13 Contents-i386 24.3 MB/44.3 MB 55%]                    165 kB/s 9min 26s
+37% [13 Contents-i386 24.4 MB/44.3 MB 55%]                    165 kB/s 9min 25s
+37% [13 Contents-i386 24.6 MB/44.3 MB 56%]                    165 kB/s 9min 24s
+37% [13 Contents-i386 24.7 MB/44.3 MB 56%]                    165 kB/s 9min 24s
+37% [13 Contents-i386 24.7 MB/44.3 MB 56%]                    176 kB/s 8min 48s
+37% [13 Contents-i386 24.8 MB/44.3 MB 56%]                    176 kB/s 8min 47s
+38% [13 Contents-i386 24.9 MB/44.3 MB 56%]                    176 kB/s 8min 46s
+38% [13 Contents-i386 25.0 MB/44.3 MB 56%]                    176 kB/s 8min 46s
+38% [13 Contents-i386 25.1 MB/44.3 MB 57%]                    176 kB/s 8min 46s
+38% [13 Contents-i386 25.1 MB/44.3 MB 57%]                    176 kB/s 8min 45s
+38% [13 Contents-i386 25.2 MB/44.3 MB 57%]                    176 kB/s 8min 44s
+38% [13 Contents-i386 25.4 MB/44.3 MB 57%]                    176 kB/s 8min 44s
+38% [13 Contents-i386 25.4 MB/44.3 MB 57%]                    176 kB/s 8min 43s
+38% [13 Contents-i386 25.5 MB/44.3 MB 58%]                    176 kB/s 8min 43s
+38% [13 Contents-i386 25.5 MB/44.3 MB 58%]                    176 kB/s 8min 43s
+38% [13 Contents-i386 25.5 MB/44.3 MB 58%]                    176 kB/s 8min 43s
+38% [13 Contents-i386 25.5 MB/44.3 MB 58%]                   135 kB/s 11min 21s
+38% [13 Contents-i386 25.5 MB/44.3 MB 58%]                   135 kB/s 11min 21s
+38% [13 Contents-i386 25.6 MB/44.3 MB 58%]                   135 kB/s 11min 20s
+38% [13 Contents-i386 25.8 MB/44.3 MB 58%]                   135 kB/s 11min 19s
+38% [13 Contents-i386 25.8 MB/44.3 MB 58%]                   135 kB/s 11min 18s
+38% [13 Contents-i386 25.8 MB/44.3 MB 58%]                   135 kB/s 11min 18s
+38% [13 Contents-i386 25.9 MB/44.3 MB 58%]                   135 kB/s 11min 18s
+38% [13 Contents-i386 25.9 MB/44.3 MB 59%]                   135 kB/s 11min 18s
+38% [13 Contents-i386 26.0 MB/44.3 MB 59%]                   135 kB/s 11min 17s
+38% [13 Contents-i386 26.0 MB/44.3 MB 59%]                   135 kB/s 11min 17s
+38% [13 Contents-i386 26.0 MB/44.3 MB 59%]                   135 kB/s 11min 17s
+38% [13 Contents-i386 26.1 MB/44.3 MB 59%]                   135 kB/s 11min 17s
+38% [13 Contents-i386 26.1 MB/44.3 MB 59%]                  94.0 kB/s 16min 13s
+38% [13 Contents-i386 26.1 MB/44.3 MB 59%]                  94.0 kB/s 16min 13s
+38% [13 Contents-i386 26.2 MB/44.3 MB 59%]                  94.0 kB/s 16min 12s
+38% [13 Contents-i386 26.2 MB/44.3 MB 59%]                  94.0 kB/s 16min 12s
+38% [13 Contents-i386 26.2 MB/44.3 MB 59%]                  94.0 kB/s 16min 12s
+38% [13 Contents-i386 26.2 MB/44.3 MB 59%]                  94.0 kB/s 16min 11s
+38% [13 Contents-i386 26.2 MB/44.3 MB 59%]                  94.0 kB/s 16min 11s
+38% [13 Contents-i386 26.2 MB/44.3 MB 59%]                  94.0 kB/s 16min 11s
+38% [13 Contents-i386 26.3 MB/44.3 MB 59%]                  94.0 kB/s 16min 11s
+39% [13 Contents-i386 26.3 MB/44.3 MB 59%]                  94.0 kB/s 16min 10s
+39% [13 Contents-i386 26.4 MB/44.3 MB 60%]                  94.0 kB/s 16min 10s
+39% [13 Contents-i386 26.4 MB/44.3 MB 60%]                  94.0 kB/s 16min 10s
+39% [13 Contents-i386 26.4 MB/44.3 MB 60%]                   54.2 kB/s 28min 1s
+39% [13 Contents-i386 26.4 MB/44.3 MB 60%]                   54.2 kB/s 28min 1s
+39% [13 Contents-i386 26.4 MB/44.3 MB 60%]                   54.2 kB/s 28min 1s
+39% [13 Contents-i386 26.4 MB/44.3 MB 60%]                   54.2 kB/s 28min 1s
+39% [13 Contents-i386 26.5 MB/44.3 MB 60%]                   54.2 kB/s 28min 0s
+39% [13 Contents-i386 26.5 MB/44.3 MB 60%]                  54.2 kB/s 27min 59s
+39% [13 Contents-i386 26.6 MB/44.3 MB 60%]                  54.2 kB/s 27min 57s
+39% [13 Contents-i386 26.7 MB/44.3 MB 60%]                  54.2 kB/s 27min 55s
+39% [13 Contents-i386 26.7 MB/44.3 MB 60%]                  54.2 kB/s 27min 55s
+39% [13 Contents-i386 26.7 MB/44.3 MB 60%]                  54.2 kB/s 27min 55s
+39% [13 Contents-i386 26.8 MB/44.3 MB 60%]                  54.2 kB/s 27min 55s
+39% [13 Contents-i386 26.8 MB/44.3 MB 60%]                  54.2 kB/s 27min 54s
+39% [13 Contents-i386 26.8 MB/44.3 MB 60%]                  64.9 kB/s 23min 19s
+39% [13 Contents-i386 26.8 MB/44.3 MB 60%]                  64.9 kB/s 23min 19s
+39% [13 Contents-i386 26.9 MB/44.3 MB 61%]                  64.9 kB/s 23min 18s
+39% [13 Contents-i386 27.0 MB/44.3 MB 61%]                  64.9 kB/s 23min 16s
+39% [13 Contents-i386 27.0 MB/44.3 MB 61%]                  64.9 kB/s 23min 15s
+39% [13 Contents-i386 27.0 MB/44.3 MB 61%]                  64.9 kB/s 23min 15s
+39% [13 Contents-i386 27.0 MB/44.3 MB 61%]                  64.9 kB/s 23min 15s
+39% [13 Contents-i386 27.0 MB/44.3 MB 61%]                  64.9 kB/s 23min 15s
+39% [13 Contents-i386 27.0 MB/44.3 MB 61%]                  64.9 kB/s 23min 15s
+39% [13 Contents-i386 27.0 MB/44.3 MB 61%]                  64.9 kB/s 23min 15s
+39% [13 Contents-i386 27.0 MB/44.3 MB 61%]                  64.9 kB/s 23min 15s
+39% [13 Contents-i386 27.1 MB/44.3 MB 61%]                  64.9 kB/s 23min 14s
+39% [13 Contents-i386 27.1 MB/44.3 MB 61%]                  53.0 kB/s 28min 26s
+39% [13 Contents-i386 27.1 MB/44.3 MB 61%]                  53.0 kB/s 28min 26s
+39% [13 Contents-i386 27.3 MB/44.3 MB 61%]                  53.0 kB/s 28min 23s
+39% [13 Contents-i386 27.3 MB/44.3 MB 62%]                  53.0 kB/s 28min 22s
+39% [13 Contents-i386 27.3 MB/44.3 MB 62%]                  53.0 kB/s 28min 22s
+39% [13 Contents-i386 27.3 MB/44.3 MB 62%]                  53.0 kB/s 28min 22s
+39% [13 Contents-i386 27.3 MB/44.3 MB 62%]                  53.0 kB/s 28min 22s
+39% [13 Contents-i386 27.3 MB/44.3 MB 62%]                  53.0 kB/s 28min 22s
+39% [13 Contents-i386 27.3 MB/44.3 MB 62%]                  53.0 kB/s 28min 22s
+39% [13 Contents-i386 27.6 MB/44.3 MB 62%]                  53.0 kB/s 28min 17s
+39% [13 Contents-i386 27.6 MB/44.3 MB 62%]                  53.0 kB/s 28min 16s
+39% [13 Contents-i386 27.6 MB/44.3 MB 62%]                  53.0 kB/s 28min 16s
+39% [13 Contents-i386 27.7 MB/44.3 MB 62%]                  89.8 kB/s 16min 41s
+39% [13 Contents-i386 27.7 MB/44.3 MB 62%]                  89.8 kB/s 16min 41s
+39% [13 Contents-i386 27.8 MB/44.3 MB 63%]                  89.8 kB/s 16min 40s
+39% [13 Contents-i386 27.8 MB/44.3 MB 63%]                  89.8 kB/s 16min 40s
+40% [13 Contents-i386 27.8 MB/44.3 MB 63%]                  89.8 kB/s 16min 40s
+40% [13 Contents-i386 27.8 MB/44.3 MB 63%]                  89.8 kB/s 16min 40s
+40% [13 Contents-i386 27.9 MB/44.3 MB 63%]                  89.8 kB/s 16min 39s
+40% [13 Contents-i386 27.9 MB/44.3 MB 63%]                  89.8 kB/s 16min 39s
+40% [13 Contents-i386 27.9 MB/44.3 MB 63%]                  89.8 kB/s 16min 38s
+40% [13 Contents-i386 27.9 MB/44.3 MB 63%]                  89.8 kB/s 16min 38s
+40% [13 Contents-i386 27.9 MB/44.3 MB 63%]                  89.8 kB/s 16min 38s
+40% [13 Contents-i386 27.9 MB/44.3 MB 63%]                  89.8 kB/s 16min 38s
+40% [13 Contents-i386 27.9 MB/44.3 MB 63%]                  46.2 kB/s 32min 20s
+40% [13 Contents-i386 27.9 MB/44.3 MB 63%]                  46.2 kB/s 32min 20s
+40% [13 Contents-i386 27.9 MB/44.3 MB 63%]                  46.2 kB/s 32min 20s
+40% [13 Contents-i386 28.0 MB/44.3 MB 63%]                  46.2 kB/s 32min 18s
+40% [13 Contents-i386 28.1 MB/44.3 MB 63%]                  46.2 kB/s 32min 18s
+40% [13 Contents-i386 28.1 MB/44.3 MB 63%]                  46.2 kB/s 32min 17s
+40% [13 Contents-i386 28.1 MB/44.3 MB 63%]                  46.2 kB/s 32min 17s
+40% [13 Contents-i386 28.1 MB/44.3 MB 63%]                  46.2 kB/s 32min 17s
+40% [13 Contents-i386 28.1 MB/44.3 MB 63%]                  46.2 kB/s 32min 16s
+40% [13 Contents-i386 28.1 MB/44.3 MB 64%]                  46.2 kB/s 32min 16s
+40% [13 Contents-i386 28.2 MB/44.3 MB 64%]                  46.2 kB/s 32min 15s
+40% [13 Contents-i386 28.2 MB/44.3 MB 64%]                  46.2 kB/s 32min 14s
+40% [13 Contents-i386 28.2 MB/44.3 MB 64%]                  51.0 kB/s 29min 11s
+40% [13 Contents-i386 28.3 MB/44.3 MB 64%]                  51.0 kB/s 29min 10s
+40% [13 Contents-i386 28.3 MB/44.3 MB 64%]                  51.0 kB/s 29min 10s
+40% [13 Contents-i386 28.3 MB/44.3 MB 64%]                   51.0 kB/s 29min 9s
+40% [13 Contents-i386 28.3 MB/44.3 MB 64%]                   51.0 kB/s 29min 9s
+40% [13 Contents-i386 28.4 MB/44.3 MB 64%]                   51.0 kB/s 29min 8s
+40% [13 Contents-i386 28.4 MB/44.3 MB 64%]                   51.0 kB/s 29min 8s
+40% [13 Contents-i386 28.4 MB/44.3 MB 64%]                   51.0 kB/s 29min 8s
+40% [13 Contents-i386 28.4 MB/44.3 MB 64%]                   51.0 kB/s 29min 7s
+40% [13 Contents-i386 28.4 MB/44.3 MB 64%]                   51.0 kB/s 29min 7s
+40% [13 Contents-i386 28.4 MB/44.3 MB 64%]                   51.0 kB/s 29min 7s
+40% [13 Contents-i386 28.4 MB/44.3 MB 64%]                   51.0 kB/s 29min 7s
+40% [13 Contents-i386 28.4 MB/44.3 MB 64%]                  34.9 kB/s 42min 30s
+40% [13 Contents-i386 28.5 MB/44.3 MB 64%]                  34.9 kB/s 42min 30s
+40% [13 Contents-i386 28.5 MB/44.3 MB 64%]                  34.9 kB/s 42min 30s
+40% [13 Contents-i386 28.5 MB/44.3 MB 64%]                  34.9 kB/s 42min 29s
+40% [13 Contents-i386 28.5 MB/44.3 MB 64%]                  34.9 kB/s 42min 29s
+40% [13 Contents-i386 28.5 MB/44.3 MB 64%]                  34.9 kB/s 42min 28s
+40% [13 Contents-i386 28.6 MB/44.3 MB 64%]                  34.9 kB/s 42min 27s
+40% [13 Contents-i386 28.6 MB/44.3 MB 64%]                  34.9 kB/s 42min 26s
+40% [13 Contents-i386 28.6 MB/44.3 MB 64%]                  34.9 kB/s 42min 26s
+40% [13 Contents-i386 28.6 MB/44.3 MB 65%]                  34.9 kB/s 42min 25s
+40% [13 Contents-i386 28.6 MB/44.3 MB 65%]                  34.9 kB/s 42min 25s
+40% [13 Contents-i386 28.6 MB/44.3 MB 65%]                  34.9 kB/s 42min 24s
+40% [13 Contents-i386 28.7 MB/44.3 MB 65%]                  35.7 kB/s 41min 27s
+40% [13 Contents-i386 28.7 MB/44.3 MB 65%]                  35.7 kB/s 41min 26s
+40% [13 Contents-i386 28.7 MB/44.3 MB 65%]                  35.7 kB/s 41min 26s
+40% [13 Contents-i386 28.7 MB/44.3 MB 65%]                  35.7 kB/s 41min 25s
+40% [13 Contents-i386 28.7 MB/44.3 MB 65%]                  35.7 kB/s 41min 25s
+40% [13 Contents-i386 28.7 MB/44.3 MB 65%]                  35.7 kB/s 41min 25s
+40% [13 Contents-i386 28.7 MB/44.3 MB 65%]                  35.7 kB/s 41min 24s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  35.7 kB/s 41min 24s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  35.7 kB/s 41min 24s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  35.7 kB/s 41min 23s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  35.7 kB/s 41min 23s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  35.7 kB/s 41min 23s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  26.3 kB/s 56min 13s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  26.3 kB/s 56min 13s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  26.3 kB/s 56min 13s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  26.3 kB/s 56min 13s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  26.3 kB/s 56min 13s
+40% [13 Contents-i386 28.8 MB/44.3 MB 65%]                  26.3 kB/s 56min 12s
+40% [13 Contents-i386 28.9 MB/44.3 MB 65%]                  26.3 kB/s 56min 12s
+40% [13 Contents-i386 28.9 MB/44.3 MB 65%]                  26.3 kB/s 56min 11s
+40% [13 Contents-i386 28.9 MB/44.3 MB 65%]                  26.3 kB/s 56min 10s
+40% [13 Contents-i386 28.9 MB/44.3 MB 65%]                  26.3 kB/s 56min 10s
+40% [13 Contents-i386 28.9 MB/44.3 MB 65%]                   26.3 kB/s 56min 9s
+40% [13 Contents-i386 28.9 MB/44.3 MB 65%]                   26.3 kB/s 56min 9s
+40% [13 Contents-i386 28.9 MB/44.3 MB 65%]                20.5 kB/s 1h 12min 6s
+40% [13 Contents-i386 29.0 MB/44.3 MB 65%]                20.5 kB/s 1h 12min 6s
+40% [13 Contents-i386 29.0 MB/44.3 MB 65%]                20.5 kB/s 1h 12min 5s
+40% [13 Contents-i386 29.0 MB/44.3 MB 65%]                20.5 kB/s 1h 12min 4s
+40% [13 Contents-i386 29.0 MB/44.3 MB 65%]                20.5 kB/s 1h 12min 3s
+40% [13 Contents-i386 29.0 MB/44.3 MB 65%]                20.5 kB/s 1h 12min 2s
+40% [13 Contents-i386 29.0 MB/44.3 MB 65%]                20.5 kB/s 1h 12min 2s
+40% [13 Contents-i386 29.0 MB/44.3 MB 66%]                20.5 kB/s 1h 12min 1s
+40% [13 Contents-i386 29.1 MB/44.3 MB 66%]                20.5 kB/s 1h 12min 1s
+40% [13 Contents-i386 29.1 MB/44.3 MB 66%]                20.5 kB/s 1h 12min 0s
+40% [13 Contents-i386 29.1 MB/44.3 MB 66%]               20.5 kB/s 1h 11min 59s
+40% [13 Contents-i386 29.1 MB/44.3 MB 66%]               20.5 kB/s 1h 11min 57s
+40% [13 Contents-i386 29.1 MB/44.3 MB 66%]                  32.3 kB/s 45min 34s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 34s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 33s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 33s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 33s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 33s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 33s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 32s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 32s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 32s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 32s
+40% [13 Contents-i386 29.2 MB/44.3 MB 66%]                  32.3 kB/s 45min 31s
+40% [13 Contents-i386 29.3 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 28s
+40% [13 Contents-i386 29.3 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 28s
+41% [13 Contents-i386 29.3 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 27s
+41% [13 Contents-i386 29.3 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 26s
+41% [13 Contents-i386 29.3 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 26s
+41% [13 Contents-i386 29.3 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 25s
+41% [13 Contents-i386 29.3 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 25s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 24s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 24s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 23s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 23s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]               20.9 kB/s 1h 10min 23s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 9s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 9s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 9s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 9s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 9s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 8s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 7s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 7s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 6s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 6s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 6s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                16.9 kB/s 1h 27min 6s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 37s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 37s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]                7,831 B/s 3h 7min 36s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]              401 B/s 2d 13h 3min 52s
+                                                                               
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+                                          
+Get:13 http://archive.ubuntu.com/ubuntu bionic-updates i386 Contents (deb) [44.3 MB]
+
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.4 MB/44.3 MB 66%]
+41% [13 Contents-i386 29.5 MB/44.3 MB 66%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 66%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 66%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 66%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 66%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 66%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 66%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 66%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 66%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                        2,993 PB/s 0s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 51s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 51s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 51s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 51s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 51s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 51s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 51s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 51s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 50s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 50s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 50s
+41% [13 Contents-i386 29.5 MB/44.3 MB 67%]                11.8 kB/s 2h 3min 50s
+41% [13 Contents-i386 29.6 MB/44.3 MB 67%]               6,425 B/s 3h 48min 17s
+41% [13 Contents-i386 29.6 MB/44.3 MB 67%]               6,425 B/s 3h 48min 17s
+41% [13 Contents-i386 29.6 MB/44.3 MB 67%]               6,425 B/s 3h 48min 17s
+41% [13 Contents-i386 29.6 MB/44.3 MB 67%]               6,425 B/s 3h 48min 17s
+41% [13 Contents-i386 29.6 MB/44.3 MB 67%]               6,425 B/s 3h 48min 14s
+41% [13 Contents-i386 29.6 MB/44.3 MB 67%]                6,425 B/s 3h 48min 6s
+41% [13 Contents-i386 29.6 MB/44.3 MB 67%]                6,425 B/s 3h 48min 4s
+41% [13 Contents-i386 29.6 MB/44.3 MB 67%]                6,425 B/s 3h 48min 4s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                6,425 B/s 3h 48min 1s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                6,425 B/s 3h 48min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                6,425 B/s 3h 48min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                6,425 B/s 3h 48min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 4s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 1s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]                18.1 kB/s 1h 21min 0s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 35s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 35s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 35s
+41% [13 Contents-i386 29.7 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 35s
+41% [13 Contents-i386 29.8 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 33s
+41% [13 Contents-i386 29.8 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 30s
+41% [13 Contents-i386 29.8 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 29s
+41% [13 Contents-i386 29.8 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 27s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 26s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 25s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 24s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]               12.4 kB/s 1h 57min 24s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 17s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 17s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 17s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 17s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 17s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 17s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 17s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 17s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 17s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 16s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 16s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]                23.1 kB/s 1h 3min 16s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]               2,811 B/s 8h 39min 47s
+41% [13 Contents-i386 29.9 MB/44.3 MB 67%]               2,811 B/s 8h 39min 47s
+41% [13 Contents-i386 29.9 MB/44.3 MB 68%]               2,811 B/s 8h 39min 39s
+41% [13 Contents-i386 29.9 MB/44.3 MB 68%]               2,811 B/s 8h 39min 39s
+41% [13 Contents-i386 29.9 MB/44.3 MB 68%]               2,811 B/s 8h 39min 39s
+41% [13 Contents-i386 30.1 MB/44.3 MB 68%]               2,811 B/s 8h 38min 51s
+41% [13 Contents-i386 30.1 MB/44.3 MB 68%]               2,811 B/s 8h 38min 46s
+41% [13 Contents-i386 30.1 MB/44.3 MB 68%]               2,811 B/s 8h 38min 39s
+41% [13 Contents-i386 30.1 MB/44.3 MB 68%]               2,811 B/s 8h 38min 31s
+41% [13 Contents-i386 30.1 MB/44.3 MB 68%]               2,811 B/s 8h 38min 27s
+41% [13 Contents-i386 30.1 MB/44.3 MB 68%]               2,811 B/s 8h 38min 22s
+41% [13 Contents-i386 30.2 MB/44.3 MB 68%]               2,811 B/s 8h 38min 14s
+41% [13 Contents-i386 30.2 MB/44.3 MB 68%]                  45.2 kB/s 32min 14s
+41% [13 Contents-i386 30.2 MB/44.3 MB 68%]                  45.2 kB/s 32min 14s
+41% [13 Contents-i386 30.2 MB/44.3 MB 68%]                  45.2 kB/s 32min 14s
+41% [13 Contents-i386 30.2 MB/44.3 MB 68%]                  45.2 kB/s 32min 13s
+41% [13 Contents-i386 30.2 MB/44.3 MB 68%]                  45.2 kB/s 32min 13s
+41% [13 Contents-i386 30.2 MB/44.3 MB 68%]                  45.2 kB/s 32min 13s
+41% [13 Contents-i386 30.2 MB/44.3 MB 68%]                  45.2 kB/s 32min 13s
+41% [13 Contents-i386 30.3 MB/44.3 MB 68%]                  45.2 kB/s 32min 12s
+41% [13 Contents-i386 30.3 MB/44.3 MB 68%]                  45.2 kB/s 32min 12s
+41% [13 Contents-i386 30.3 MB/44.3 MB 68%]                  45.2 kB/s 32min 12s
+41% [13 Contents-i386 30.3 MB/44.3 MB 68%]                  45.2 kB/s 32min 12s
+41% [13 Contents-i386 30.3 MB/44.3 MB 68%]                  45.2 kB/s 32min 12s
+41% [13 Contents-i386 30.3 MB/44.3 MB 68%]                23.3 kB/s 1h 2min 26s
+41% [13 Contents-i386 30.3 MB/44.3 MB 68%]                23.3 kB/s 1h 2min 25s
+41% [13 Contents-i386 30.3 MB/44.3 MB 68%]                23.3 kB/s 1h 2min 25s
+41% [13 Contents-i386 30.4 MB/44.3 MB 68%]                23.3 kB/s 1h 2min 24s
+41% [13 Contents-i386 30.4 MB/44.3 MB 68%]                23.3 kB/s 1h 2min 24s
+41% [13 Contents-i386 30.4 MB/44.3 MB 68%]                23.3 kB/s 1h 2min 24s
+41% [13 Contents-i386 30.4 MB/44.3 MB 68%]                23.3 kB/s 1h 2min 24s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                23.3 kB/s 1h 2min 23s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                23.3 kB/s 1h 2min 23s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                23.3 kB/s 1h 2min 23s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                23.3 kB/s 1h 2min 22s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                23.3 kB/s 1h 2min 22s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 9s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 9s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 9s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 9s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 9s
+41% [13 Contents-i386 30.4 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 7s
+41% [13 Contents-i386 30.5 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 3s
+41% [13 Contents-i386 30.5 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 2s
+41% [13 Contents-i386 30.5 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 1s
+41% [13 Contents-i386 30.6 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 1s
+41% [13 Contents-i386 30.6 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 1s
+41% [13 Contents-i386 30.6 MB/44.3 MB 69%]                16.7 kB/s 1h 27min 1s
+41% [13 Contents-i386 30.6 MB/44.3 MB 69%]                  36.5 kB/s 39min 38s
+41% [13 Contents-i386 30.7 MB/44.3 MB 69%]                  36.5 kB/s 39min 38s
+41% [13 Contents-i386 30.7 MB/44.3 MB 69%]                  36.5 kB/s 39min 37s
+41% [13 Contents-i386 30.7 MB/44.3 MB 69%]                  36.5 kB/s 39min 37s
+41% [13 Contents-i386 30.7 MB/44.3 MB 69%]                  36.5 kB/s 39min 36s
+41% [13 Contents-i386 30.7 MB/44.3 MB 69%]                  36.5 kB/s 39min 35s
+41% [13 Contents-i386 30.7 MB/44.3 MB 69%]                  36.5 kB/s 39min 35s
+41% [13 Contents-i386 30.7 MB/44.3 MB 69%]                  36.5 kB/s 39min 35s
+41% [13 Contents-i386 30.8 MB/44.3 MB 69%]                  36.5 kB/s 39min 35s
+42% [13 Contents-i386 30.8 MB/44.3 MB 69%]                  36.5 kB/s 39min 34s
+42% [13 Contents-i386 30.8 MB/44.3 MB 69%]                  36.5 kB/s 39min 34s
+42% [13 Contents-i386 30.8 MB/44.3 MB 69%]                  36.5 kB/s 39min 34s
+42% [13 Contents-i386 30.8 MB/44.3 MB 70%]                  30.9 kB/s 46min 44s
+42% [13 Contents-i386 30.8 MB/44.3 MB 70%]                  30.9 kB/s 46min 44s
+42% [13 Contents-i386 30.8 MB/44.3 MB 70%]                  30.9 kB/s 46min 43s
+42% [13 Contents-i386 30.9 MB/44.3 MB 70%]                  30.9 kB/s 46min 43s
+42% [13 Contents-i386 30.9 MB/44.3 MB 70%]                  30.9 kB/s 46min 42s
+42% [13 Contents-i386 30.9 MB/44.3 MB 70%]                  30.9 kB/s 46min 42s
+42% [13 Contents-i386 30.9 MB/44.3 MB 70%]                  30.9 kB/s 46min 42s
+42% [13 Contents-i386 30.9 MB/44.3 MB 70%]                  30.9 kB/s 46min 41s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  30.9 kB/s 46min 40s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  30.9 kB/s 46min 40s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  30.9 kB/s 46min 39s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  30.9 kB/s 46min 39s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]                  29.9 kB/s 48min 12s
+                                                                               
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+42% [13 Contents-i386 31.0 MB/44.3 MB 70%]
+                                          
+Ign:13 http://archive.ubuntu.com/ubuntu bionic-updates i386 Contents (deb)
+
+                                          
+Ign:14 http://archive.ubuntu.com/ubuntu bionic-updates amd64 Contents (deb)
+
+                                          
+21% [Working]
+             
+Ign:15 http://archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages
+
+             
+Ign:16 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages
+
+             
+Ign:17 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata
+
+             
+Ign:18 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata
+
+             
+Ign:19 http://archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata
+
+21% [Working]
+             
+Ign:13 http://archive.ubuntu.com/ubuntu bionic-updates i386 Contents (deb)
+
+             
+Ign:14 http://archive.ubuntu.com/ubuntu bionic-updates amd64 Contents (deb)
+
+             
+Ign:15 http://archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages
+
+             
+Ign:16 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages
+
+             
+Ign:17 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata
+
+             
+Ign:18 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata
+
+20% [Working]
+             
+Ign:19 http://archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata
+
+             
+Err:13 http://archive.ubuntu.com/ubuntu bionic-updates i386 Contents (deb)
+  Could not connect to archive.ubuntu.com:80 (2001:67c:1360:8001::23), connection timed out Could not connect to archive.ubuntu.com:80 (91.189.88.142), connection timed out Could not connect to archive.ubuntu.com:80 (2001:67c:1360:8001::24), connection timed out Could not connect to archive.ubuntu.com:80 (91.189.88.152), connection timed out [IP: 2001:67c:1360:8001::23 80]
+
+             
+Err:14 http://archive.ubuntu.com/ubuntu bionic-updates amd64 Contents (deb)
+  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+
+             
+Err:15 http://archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages
+  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+
+             
+Err:16 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages
+  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+
+             
+Err:17 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata
+  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+
+20% [Working]
+             
+Err:18 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata
+  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+
+             
+Ign:19 http://archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata
+
+20% [Working]
+             
+Err:19 http://archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata
+  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+
+20% [Working]
+             
+Fetched 1,218 kB in 7min 32s (2,693 B/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 12%
+
+Reading package lists... 24%
+
+Reading package lists... 32%
+
+Reading package lists... 32%
+
+Reading package lists... 32%
+
+Reading package lists... 46%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 60%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 73%
+
+Reading package lists... 73%
+
+Reading package lists... 75%
+
+Reading package lists... 75%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 78%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 91%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-updates/Contents-i386  Could not connect to archive.ubuntu.com:80 (2001:67c:1360:8001::23), connection timed out Could not connect to archive.ubuntu.com:80 (91.189.88.142), connection timed out Could not connect to archive.ubuntu.com:80 (2001:67c:1360:8001::24), connection timed out Could not connect to archive.ubuntu.com:80 (91.189.88.152), connection timed out [IP: 2001:67c:1360:8001::23 80]
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-updates/Contents-amd64  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-updates/universe/binary-i386/Packages.gz  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-updates/universe/binary-amd64/Packages.gz  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-updates/universe/dep11/Components-amd64.yml.gz  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-updates/multiverse/dep11/Components-amd64.yml.gz  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-backports/universe/dep11/Components-amd64.yml  Unable to connect to archive.ubuntu.com:http: [IP: 2001:67c:1360:8001::23 80]
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ sudo apt [K-get install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 89%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 2%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ sudo apt [K-get install mysql-server libapache2 
+-mod-auth-mysql php5-mysql
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 93%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 2%
+
+Reading state information... Done
+
+Package php5-mysql is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Unable to locate package libapache2-mod-auth-mysql
+E: Package 'php5-mysql' has no installation candidate
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ sudo mysql_install_db
+2020-03-22 12:29:13 [WARNING] mysql_install_db is deprecated. Please consider switching to mysqld --initialize
+2020-03-22 12:29:13 [ERROR]   The data directory needs to be specified.
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ sudo /usr/bin/mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Connecting to MySQL using a blank password.
+The 'validate_password' plugin is installed on the server.
+The subsequent steps will run with the existing configuration
+of the plugin.
+Please set the password for root here.
+
+New password: 
+
+Re-enter new password: 
+
+Estimated strength of the password: 25 
+Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : y
+By default, a MySQL installation has an anonymous user,
+allowing anyone to log into MySQL without having to have
+a user account created for them. This is intended only for
+testing, and to make the installation go a bit smoother.
+You should remove them before moving into a production
+environment.
+
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+
+Normally, root should only be allowed to connect from
+'localhost'. This ensures that someone cannot guess at
+the root password from the network.
+
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+By default, MySQL comes with a database named 'test' that
+anyone can access. This is also intended only for testing,
+and should be removed before moving into a production
+environment.
+
+
+Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
+ - Dropping test database...
+Success.
+
+ - Removing privileges on test database...
+Success.
+
+Reloading the privilege tables will ensure that all changes
+made so far will take effect immediately.
+
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+All done! 
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ sudo apt-get install php5 libapache2-mod-php 
+5-mcrypt
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 92%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 2%
+
+Reading state information... Done
+
+Package php5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'php5' has no installation candidate
+E: Unable to locate package libapache2-mod-php5-mcrypt
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ sudo nano /ec[Ktc/apache2/mods-enabled/die[Kr.conf 
+[A
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 5 lines ](B[m[H(B[0;7m  GNU nano 2.9.3          /etc/apache2/mods-enabled/dir.conf                    [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[49m(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl index.xhtml inde$[5;1H</IfModule>
+[7d[36m# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[3d[39m(B[m[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ apt-cachec [K[K search php5-
+bluefish - advanced Gtk+ text editor for web and software development
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ sudo nano /var/www/info.php
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                  /var/www/info.php                             [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[3d<[?12l[?25h[?25l(B[0;1m[32m<?[39m(B[m[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[32mphp[39m(B[m[?12l[?25h[?25l
+[4d[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25l
+[37mphpinfo([39m(B[m[?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l
+[5d[?12l[?25h[?25l?[?12l[?25h[?25l(B[0;1m[32m?>[39m(B[m[?12l[?25h[?25l[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 3 lines ](B[m[5;3H[?12l[?25h[?25l
+[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ sudo service apache2 restat[Krt
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ gedit lamp.sh
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ exit./lamp.shsudo ./lamp.sh[7Plamp.shs[K.\lamp.sh/lamp.shgedit lamp.shsudo service apache2 restart[1Pnano /var/www/info.php[5Papt-cache search php5-sudo nano /etc/apache2/mods-enabled/dir.conf 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capt-get install php5 libapache2-mod-php5
+5-mcrypt[A
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ [C[C[C[C[Cnano /etc/apache2/mods-enabled/dir.conf 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Papt-cache search php5-
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /var/www/info.phpservice apache2 restart[15Pgedit lamp.sh[4P./lamp.sh\lamp.shls[Kamp.shsudo ./lamp.sh[5P./lamp.sh[5Pexit[Kbash ./lamp.sh
+\n Update and Upgrade
+[sudo] password for acer: ****    
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 13%
+
+Reading package lists... 25%
+
+Reading package lists... 32%
+
+Reading package lists... 32%
+
+Reading package lists... 37%
+
+Reading package lists... 54%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 73%
+
+Reading package lists... 73%
+
+Reading package lists... 73%
+
+Reading package lists... 75%
+
+Reading package lists... 75%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+E: Could not get lock /var/lib/apt/lists/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock directory /var/lib/apt/lists/
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 81%
+
+Building dependency tree       
+
+
+
+Reading state information... 0%
+
+Reading state information... 2%
+
+Reading state information... Done
+
+
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+\n Installing Apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 93%
+
+Building dependency tree       
+
+
+
+Reading state information... 0%
+
+Reading state information... 2%
+
+Reading state information... Done
+
+
+E: Unable to locate package apache2-mpm-prefork
+\n Installing PHP & Requirements
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 93%
+
+Building dependency tree       
+
+
+
+Reading state information... 0%
+
+Reading state information... 2%
+
+Reading state information... Done
+
+
+Package php5-curl is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package libapache2-mod-php5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-gd is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-imagick is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-mcrypt is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-common is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'libapache2-mod-php5' has no installation candidate
+E: Package 'php5-common' has no installation candidate
+E: Package 'php5-curl' has no installation candidate
+E: Unable to locate package php5-dev
+E: Package 'php5-gd' has no installation candidate
+E: Unable to locate package php5-idn
+E: Package 'php5-imagick' has no installation candidate
+E: Package 'php5-mcrypt' has no installation candidate
+\n Installing MySQL
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 93%
+
+Building dependency tree       
+
+
+
+Reading state information... 0%
+
+Reading state information... 2%
+
+Reading state information... Done
+
+
+E: Unable to locate package mysq-server
+E: Unable to locate package libmysqlclient15.dev
+E: Couldn't find any package by glob 'libmysqlclient15.dev'
+E: Couldn't find any package by regex 'libmysqlclient15.dev'
+\n Restarting apache 
+]0;acer@acer-Aspire-ES1-512: ~/kr/2203[01;32macer@acer-Aspire-ES1-512[00m:[01;34m~/kr/2203[00m$ exit
+
+Script started on 2020-06-10 19:16:53+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;raymond@RAYMOND: ~/1006[01;32mraymond@RAYMOND[00m:[01;34m~/1006[00m$ script work.txtls[Kcd 1006/mkdir 1006pwd[K[1Plsnano mcal.sh
+[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                           mcal.sh                                                      [1;119H(B[m
+[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text
+[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text
+[28d[3d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m
+[3d[32mread[39m(B[m ch[42m 
+[4d  
+[5d[49m[36m# Switch Case to perform[39m[42m 
+[6d[49m[36m# calulator operations[39m[42m 
+[7d[49m[32mcase[39m(B[m (B[0;1m[31m$ch[39m(B[m [32min[8;3H[39m(B[m1[32m)[39m(B[mres[32m=`(B[0;1m[34mecho[39m(B[m (B[0;1m[31m$a[39m(B[m + (B[0;1m[31m$b[39m(B[m [32m|[39m(B[m bc[32m`[39m[42m [9;3H[49m[32m;;[39m[42m [10;3H[49m(B[m2[32m)[39m(B[mres[32m=`(B[0;1m[34mecho[39m(B[m (B[0;1m[31m$a[39m(B[m - (B[0;1m[31m$b[39m(B[m [32m|[39m(B[m bc[32m`[39m[42m [11;3H[49m[32m;;[39m[42m [12;3H[49m(B[m3[32m)[39m(B[mres[32m=`(B[0;1m[34mecho[39m(B[m (B[0;1m[31m$a[39m(B[m [32m\[39m(B[m* (B[0;1m[31m$b[39m(B[m [32m|[39m(B[m bc[32m`[39m[42m [13;3H[49m[32m;;[39m[42m [14;3H[49m(B[m4[32m)[39m(B[mres[32m=`(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"scale=2; $a / $b"[39m(B[m [32m|[39m(B[m bc[32m`[39m[42m [15;3H[49m[32m;;[39m[42m 
+[16d[49m[32mesac
+[17d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Result : $res"
+[28d[39m(B[m[K[17;21H[?12l[?25h[?25l[16;5H[?12l[?25h[?25l[A[C[?12l[?25h[?25l[14;21H[?12l[?25h[?25l[13;6H[?12l[?25h[?25l[12;21H[?12l[?25h[?25l[11;6H[?12l[?25h[?25l[10;21H[?12l[?25h[?25l[9;6H[?12l[?25h[?25l[8;21H[?12l[?25h[?25l[7;12H[?12l[?25h[?25l[6;21H[?12l[?25h[?25l[A[?12l[?25h[?25l[4;3H[?12l[?25h[?25l[3;9H[?12l[?25h[?25l[2;27r[2;1H[13T[1;30r[3;1H[36m# !/bin/bash[39m[42m 
+[4d  
+[5d[49m[36m# Take user Input[39m[42m 
+[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter Two numbers : "
+[7d(B[0m[32mread[39m(B[m a[42m 
+[8d[49m[32mread[39m(B[m b[42m 
+[9d  
+[10d[49m[36m# Input type of operation[39m[42m 
+[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter Choice :"
+[12d[34mecho[39m(B[m (B[0;1m[33m"1. Addition"
+[13d[34mecho[39m(B[m (B[0;1m[33m"2. Subtraction"
+[14d[34mecho[39m(B[m (B[0;1m[33m"3. Multiplication"
+[15d[34mecho[39m(B[m (B[0;1m[33m"4. Division"[39m(B[m[?12l[?25h[?25l[14;21H[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[11;21H[?12l[?25h[?25l[A[?12l[?25h[?25l[9;3H[?12l[?25h[?25l[8;8H[?12l[?25h[?25l[A[?12l[?25h[?25l[6;21H[?12l[?25h[?25l[A[?12l[?25h[?25l[4;3H[?12l[?25h[?25l[3;14H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[4;3H[?12l[?25h[?25l[5;19H[?12l[?25h[?25l[6;21H[?12l[?25h[?25l[7;8H[?12l[?25h[?25l[8d[?12l[?25h[?25l[9;3H[?12l[?25h[?25l[10;21H[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13;21H[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16;9H[?12l[?25h[?25l[17;3H[?12l[?25h[?25l[18;21H[?12l[?25h[?25l[19d[?12l[?25h[?25l[20;12H[?12l[?25h[?25l[21;21H[?12l[?25h[?25l[22;6H[?12l[?25h[?25l[23;21H[?12l[?25h[?25l[24;6H[?12l[?25h[?25l[25;21H[?12l[?25h[?25l[26;6H[?12l[?25h[?25l[27;21H[?12l[?25h[?25l7[3;28r8
+[28d[13S[1;30r[15;3H[32m;;[39m[42m 
+[16d[49m[32mesac
+[17d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Result : $res"[15;6H[39m(B[m[?12l[?25h[?25l[16d[?12l[?25h[?25l[17;21H[?12l[?25h[?25l
+[18d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;119H[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 28 lines ](B[m
+[18d[?12l[?25h[?25l[1;119H[28;70H
+[18d[?12l[?25h[?25l[28d[J[30;120H[?12l[?25h[30;1H[?1049l[23;0;0t
+[?1l>]0;raymond@RAYMOND: ~/1006[01;32mraymond@RAYMOND[00m:[01;34m~/1006[00m$ sh mcal.sh
+Enter Two numbers : 
+40
+4
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+1
+Result : 44
+]0;raymond@RAYMOND: ~/1006[01;32mraymond@RAYMOND[00m:[01;34m~/1006[00m$ sh mcal.sh
+Enter Two numbers : 
+55
+80
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+2
+Result : -25
+]0;raymond@RAYMOND: ~/1006[01;32mraymond@RAYMOND[00m:[01;34m~/1006[00m$ sh mcal.sh[2@nano[C[C[C[C[C[C[C[C[2Psh[C[C[C[C[C[C[C[C
+Enter Two numbers : 
+80
+7
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+3
+Result : 560
+]0;raymond@RAYMOND: ~/1006[01;32mraymond@RAYMOND[00m:[01;34m~/1006[00m$ sh mcal.sh[2@nano[C[C[C[C[C[C[C[C[2Psh[C[C[C[C[C[C[C[C
+Enter Two numbers : 
+9
+55
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+4
+Result : .16
+]0;raymond@RAYMOND: ~/1006[01;32mraymond@RAYMOND[00m:[01;34m~/1006[00m$ exit
+exit
+
+Script done on 2020-06-10 19:18:40+0530
+
+Script done on 2020-06-17 13:39:49+0530
+
+
